@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/JWPlayerDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/JWPlayerDelegate</TokenIdentifier>
+			<Abstract type="html">@protocol JWPlayerDelegate</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+            
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAll</TokenIdentifier>
+			<Abstract type="html">onAll(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAll</Declaration>
+			
+			
+			<Anchor>//api/name/onAll</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlayAttempt</TokenIdentifier>
+			<Abstract type="html">onPlayAttempt(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlayAttempt</Declaration>
+			
+			
+			<Anchor>//api/name/onPlayAttempt</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onBeforePlay</TokenIdentifier>
+			<Abstract type="html">onBeforePlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onBeforePlay</Declaration>
+			
+			
+			<Anchor>//api/name/onBeforePlay</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onFirstFrame:</TokenIdentifier>
+			<Abstract type="html">onFirstFrame(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onFirstFrame:(NSInteger)loadTime</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>loadTime</Name>
+					<Abstract type="html">The amount of time (In milliseconds) it takes for the player to transition from a playAttempt to a firstFrame event. Use this to determine the period of time between a user pressing play and the same user viewing their content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onFirstFrame:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlay</TokenIdentifier>
+			<Abstract type="html">onPlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlay</Declaration>
+			
+			
+			<Anchor>//api/name/onPlay</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlay:</TokenIdentifier>
+			<Abstract type="html">onPlay</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlay:(NSString *)oldState</Declaration>
+			
+			
+			<Anchor>//api/name/onPlay:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPause</TokenIdentifier>
+			<Abstract type="html">onPause(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPause</Declaration>
+			
+			
+			<Anchor>//api/name/onPause</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPause:</TokenIdentifier>
+			<Abstract type="html">onPause</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPause:(NSString *)oldState</Declaration>
+			
+			
+			<Anchor>//api/name/onPause:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onIdle</TokenIdentifier>
+			<Abstract type="html">onIdle(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onIdle</Declaration>
+			
+			
+			<Anchor>//api/name/onIdle</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onIdle:</TokenIdentifier>
+			<Abstract type="html">onIdle</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onIdle:(NSString *)oldState</Declaration>
+			
+			
+			<Anchor>//api/name/onIdle:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onReady</TokenIdentifier>
+			<Abstract type="html">onReady(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onReady</Declaration>
+			
+			
+			<Anchor>//api/name/onReady</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onReady:</TokenIdentifier>
+			<Abstract type="html">onReady</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onReady:(NSInteger)setupTime</Declaration>
+			
+			
+			<Anchor>//api/name/onReady:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onBeforeComplete</TokenIdentifier>
+			<Abstract type="html">onBeforeComplete(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onBeforeComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onBeforeComplete</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onComplete</TokenIdentifier>
+			<Abstract type="html">onComplete(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onComplete</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onBuffer</TokenIdentifier>
+			<Abstract type="html">onBuffer(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onBuffer</Declaration>
+			
+			
+			<Anchor>//api/name/onBuffer</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onBuffer:reason:</TokenIdentifier>
+			<Abstract type="html">onBuffer</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onBuffer:(NSString *)oldState reason:(NSString *)reason</Declaration>
+			
+			
+			<Anchor>//api/name/onBuffer:reason:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onBufferChange:</TokenIdentifier>
+			<Abstract type="html">onBuffer</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onBufferChange:(double)buffer</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>buffer</Name>
+					<Abstract type="html">Percentage between 0 and 100 of the current media that is buffered.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onBufferChange:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onTime:ofDuration:</TokenIdentifier>
+			<Abstract type="html">onTime(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onTime:(double)position ofDuration:(double)duration</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Playback position in seconds.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">Duration of the current item in seconds.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onTime:ofDuration:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onSeek:fromPosition:</TokenIdentifier>
+			<Abstract type="html">onSeek(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onSeek:(double)offset fromPosition:(double)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">The user requested position to seek to (in seconds). Note the actual position the player will eventually seek to may differ.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">The position of the player before the player seeks (in seconds).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onSeek:fromPosition:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onSeeked</TokenIdentifier>
+			<Abstract type="html">onSeeked(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onSeeked</Declaration>
+			
+			
+			<Anchor>//api/name/onSeeked</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onMeta:</TokenIdentifier>
+			<Abstract type="html">onMeta(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onMeta:(NSDictionary *)metaData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>metaData</Name>
+					<Abstract type="html">Object containing the new metadata. This can be metadata hidden in the media (ID3, XMP, keyframes) or metadata broadcasted by the playback provider (bandwidth, quality switches).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onMeta:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onCaptionsList:with:</TokenIdentifier>
+			<Abstract type="html">onCaptionsList(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCaptionsList:(NSArray *)tracks with:(NSInteger)selectedTrack</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tracks</Name>
+					<Abstract type="html">The full array of caption tracks.</Abstract>
+				</Parameter><Parameter>
+					<Name>selectedTrack</Name>
+					<Abstract type="html">The currently selected caption track.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCaptionsList:with:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onCaptionsChanged:</TokenIdentifier>
+			<Abstract type="html">onCaptionsChanged (callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCaptionsChanged:(NSInteger)selectedTrack</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>selectedTrack</Name>
+					<Abstract type="html">Index of the new active captions track in the tracks array. Note the captions are Off if the selectedTrack is 0.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCaptionsChanged:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onCaptionsChange:</TokenIdentifier>
+			<Abstract type="html">onCaptionsChange (callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCaptionsChange:(NSInteger)selectedTrack</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>selectedTrack</Name>
+					<Abstract type="html">Index of the new active captions track in the tracks array. Note the captions are Off if the selectedTrack is 0.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCaptionsChange:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onLevels:</TokenIdentifier>
+			<Abstract type="html">onLevels(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onLevels:(NSArray *)levels</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>levels</Name>
+					<Abstract type="html">The full array of quality levels.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onLevels:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onQualityLevels:</TokenIdentifier>
+			<Abstract type="html">onQualityLevels(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onQualityLevels:(NSArray *)levels</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>levels</Name>
+					<Abstract type="html">The full array of quality levels.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onQualityLevels:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onLevelsChanged:</TokenIdentifier>
+			<Abstract type="html">onLevelsChanged(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onLevelsChanged:(NSInteger)currentLevel</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>currentLevel</Name>
+					<Abstract type="html">Index of the new quality level in the getQualityLevels() array.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onLevelsChanged:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onQualityChange:</TokenIdentifier>
+			<Abstract type="html">onQualityChange(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onQualityChange:(NSInteger)currentQuality</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>currentQuality</Name>
+					<Abstract type="html">Index of the new quality level in the getQualityLevels() array.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onQualityChange:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onVisualQuality:reason:label:</TokenIdentifier>
+			<Abstract type="html">onVisualQuality(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onVisualQuality:(NSString *)mode reason:(NSString *)reason label:(NSString *)label</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>mode</Name>
+					<Abstract type="html">The type of quality selection that has been enabled with the player. This will read auto when a user is relying on our automatic quality determination or manual when a user has selected a static quality.</Abstract>
+				</Parameter><Parameter>
+					<Name>reason</Name>
+					<Abstract type="html">Why the quality was changed. This can be initial choice.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Information about the quality that was changed. This will display your label, bitrate, index, and resolution.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onVisualQuality:reason:label:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAudioTracks:</TokenIdentifier>
+			<Abstract type="html">onAudioTracks (callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAudioTracks:(NSArray *)audioTracks</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>audioTracks</Name>
+					<Abstract type="html">The full array with audio tracks.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAudioTracks:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAudioTrackChanged:</TokenIdentifier>
+			<Abstract type="html">onAudioTrackChanged (callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAudioTrackChanged:(NSInteger)currentAudioTrack</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>currentAudioTrack</Name>
+					<Abstract type="html">Index of the newly selected audio track in the JWPlayerController&apos;s audioTracks property.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAudioTrackChanged:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlaylist:</TokenIdentifier>
+			<Abstract type="html">onPlaylist(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlaylist:(NSArray *)playlist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>playlist</Name>
+					<Abstract type="html">The new playlist; an array of playlist items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onPlaylist:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlaylistItem:</TokenIdentifier>
+			<Abstract type="html">onPlaylistItem(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlaylistItem:(NSInteger)index</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>index</Name>
+					<Abstract type="html">Zero-based index into the playlist array (e.g. 0 is the first item).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onPlaylistItem:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPlaylistComplete</TokenIdentifier>
+			<Abstract type="html">onPlaylistComplete(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPlaylistComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onPlaylistComplete</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onFullscreen:</TokenIdentifier>
+			<Abstract type="html">onFullscreen</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onFullscreen:(BOOL)status</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">Whether or not video is in fullscreen mode.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onFullscreen:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onResize:</TokenIdentifier>
+			<Abstract type="html">onResize</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onResize:(CGSize)size</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>size</Name>
+					<Abstract type="html">The new dimensions of the player.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onResize:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onPictureInPicture:</TokenIdentifier>
+			<Abstract type="html">onPictureInPicture</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onPictureInPicture:(BOOL)status</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">Whether or not player is displayed in Picture in Picture.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onPictureInPicture:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onControls:</TokenIdentifier>
+			<Abstract type="html">onControls</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onControls:(BOOL)status</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>status</Name>
+					<Abstract type="html">New state of the controls. Is true when the controls were just enabled.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onControls:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onDisplayClick</TokenIdentifier>
+			<Abstract type="html">onDisplayClick(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onDisplayClick</Declaration>
+			
+			
+			<Anchor>//api/name/onDisplayClick</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onControlBarVisible:</TokenIdentifier>
+			<Abstract type="html">onControlBarVisible</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onControlBarVisible:(BOOL)isVisible</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>isVisible</Name>
+					<Abstract type="html">Current control bar visibility status.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onControlBarVisible:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdRequest:forPosition:</TokenIdentifier>
+			<Abstract type="html">onAdRequest(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdRequest:(NSString *)tag forPosition:(NSString *)adPosition</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is being requested.</Abstract>
+				</Parameter><Parameter>
+					<Name>adPosition</Name>
+					<Abstract type="html">Whether an ad is in a pre, mid, or post position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdRequest:forPosition:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdRequest:forPosition:client:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdRequest(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdRequest:(NSString *)tag forPosition:(NSString *)adPosition client:(JWAdClient)client creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is being requested.</Abstract>
+				</Parameter><Parameter>
+					<Name>adPosition</Name>
+					<Abstract type="html">Whether an ad is in a pre, mid, or post position.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that is currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played, linear or nonlinear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdRequest:forPosition:client:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdSkipped:</TokenIdentifier>
+			<Abstract type="html">onAdSkipped(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdSkipped:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that was skipped.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdSkipped:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdSkipped:client:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdSkipped(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdSkipped:(NSString *)tag client:(JWAdClient)client creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that was skipped.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that is currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played, linear or nonlinear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdSkipped:client:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdComplete:</TokenIdentifier>
+			<Abstract type="html">onAdComplete(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdComplete:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdComplete:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdComplete:client:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdComplete(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdComplete:(NSString *)tag client:(JWAdClient)client creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that is currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played, linear or nonlinear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdComplete:client:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdClick:</TokenIdentifier>
+			<Abstract type="html">onAdClick(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdClick:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdClick:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdClick:client:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdClick(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdClick:(NSString *)tag client:(JWAdClient)client creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that is currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played, linear or nonlinear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdClick:client:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdCompanions:companions:</TokenIdentifier>
+			<Abstract type="html">onAdCompanions(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdCompanions:(NSString *)tag companions:(NSArray&lt;JWAdCompanion*&gt; *)companions</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>companions</Name>
+					<Abstract type="html">An array with available companion information.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdCompanions:companions:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdImpression:</TokenIdentifier>
+			<Abstract type="html">onAdImpression(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdImpression:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdImpression:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:</TokenIdentifier>
+			<Abstract type="html">onAdImpression(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdImpression:(NSString *)tag adPosition:(NSString *)position adSystem:(NSString *)adSystem adTitle:(NSString *)adTitle client:(JWAdClient)client creativeType:(NSString *)creativeType vastVersion:(double)vastVersion wrapper:(NSArray *)wrapper</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>adSystem</Name>
+					<Abstract type="html">AdSystem referenced inside of the VAST XML.</Abstract>
+				</Parameter><Parameter>
+					<Name>adTitle</Name>
+					<Abstract type="html">AdTitle referenced inside of the VAST XML.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that&apos;s currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played.</Abstract>
+				</Parameter><Parameter>
+					<Name>adPosition</Name>
+					<Abstract type="html">An ad&apos;s position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:</TokenIdentifier>
+			<Abstract type="html">onAdImpression(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdImpression:(NSString *)tag adPosition:(NSString *)position adSystem:(NSString *)adSystem adTitle:(NSString *)adTitle client:(JWAdClient)client creativeType:(NSString *)creativeType vastVersion:(double)vastVersion wrapper:(NSArray *)wrapper mediaFile:(NSString *)mediaFile linear:(BOOL)linear</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>adSystem</Name>
+					<Abstract type="html">AdSystem referenced inside of the VAST XML.</Abstract>
+				</Parameter><Parameter>
+					<Name>adTitle</Name>
+					<Abstract type="html">AdTitle referenced inside of the VAST XML.</Abstract>
+				</Parameter><Parameter>
+					<Name>client</Name>
+					<Abstract type="html">The client that&apos;s currently being used, vast or googima.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played.</Abstract>
+				</Parameter><Parameter>
+					<Name>mediaFile</Name>
+					<Abstract type="html">the currently playing media item.</Abstract>
+				</Parameter><Parameter>
+					<Name>linear</Name>
+					<Abstract type="html">Wether the ad is linear or nonlinear.</Abstract>
+				</Parameter><Parameter>
+					<Name>adPosition</Name>
+					<Abstract type="html">An ad&apos;s position.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdPlay:</TokenIdentifier>
+			<Abstract type="html">onAdPlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdPlay:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdPlay:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdPlay:creativeType:newState:oldState:</TokenIdentifier>
+			<Abstract type="html">onAdPlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdPlay:(NSString *)tag creativeType:(NSString *)creativeType newState:(NSString *)newState oldState:(NSString *)oldState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played.</Abstract>
+				</Parameter><Parameter>
+					<Name>newState</Name>
+					<Abstract type="html">The new state of the player.</Abstract>
+				</Parameter><Parameter>
+					<Name>oldState</Name>
+					<Abstract type="html">the old state of the player.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdPlay:creativeType:newState:oldState:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdPause:</TokenIdentifier>
+			<Abstract type="html">onAdPause(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdPause:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdPause:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdPause:creativeType:newState:oldState:</TokenIdentifier>
+			<Abstract type="html">onAdPause(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdPause:(NSString *)tag creativeType:(NSString *)creativeType newState:(NSString *)newState oldState:(NSString *)oldState</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of ad that is being played.</Abstract>
+				</Parameter><Parameter>
+					<Name>newState</Name>
+					<Abstract type="html">The new state of the player.</Abstract>
+				</Parameter><Parameter>
+					<Name>oldState</Name>
+					<Abstract type="html">the old state of the player.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdPause:creativeType:newState:oldState:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdTime:ofDuration:tag:index:</TokenIdentifier>
+			<Abstract type="html">onAdTime(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdTime:(double)position ofDuration:(double)duration tag:(NSString *)tag index:(NSInteger)sequence</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">The current playback position in the ad creative.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The total duration of the ad creative.</Abstract>
+				</Parameter><Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>sequence</Name>
+					<Abstract type="html">Returns the sequence number the ad is a part of.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdTime:ofDuration:tag:index:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdTime:ofDuration:tag:index:client:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdTime(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdTime:(double)position ofDuration:(double)duration tag:(NSString *)tag index:(NSInteger)sequence client:(JWAdClient)client creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">The current playback position in the ad creative.</Abstract>
+				</Parameter><Parameter>
+					<Name>duration</Name>
+					<Abstract type="html">The total duration of the ad creative.</Abstract>
+				</Parameter><Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The ad tag that is currently playing.</Abstract>
+				</Parameter><Parameter>
+					<Name>sequence</Name>
+					<Abstract type="html">Returns the sequence number the ad is a part of.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdTime:ofDuration:tag:index:client:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdError:</TokenIdentifier>
+			<Abstract type="html">onAdError(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message under property localizedDescription. The following error messages are possible:
+-invalid ad tag (e.g. invalid XML, broken VAST)
+-ad tag empty (e.g. no ad available after chasing the wrappers)
+-no compatible creatives (e.g. only FLV video in HTML5)
+-error playing creative (e.g. a 404 on the MP4 video)
+-error loading ad tag (for all else)
+When applicable, the userInfo (NSDictionary) property of error will contain the ad tag that is currently playing (key: tag), and/or the vmap (key: vmap). If Google IMA is being used as the ad Client, the imaErrorType will be included (key: imaErrorType) and not the vmap.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdError:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdStarted:creativeType:</TokenIdentifier>
+			<Abstract type="html">onAdStarted(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdStarted:(NSString *)tag creativeType:(NSString *)creativeType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">The URL of the ad tag that was started.</Abstract>
+				</Parameter><Parameter>
+					<Name>creativeType</Name>
+					<Abstract type="html">The type of VPAID ad that is being played.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdStarted:creativeType:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onAdMeta:</TokenIdentifier>
+			<Abstract type="html">onAdMeta(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onAdMeta:(NSDictionary *)metaData</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>metaData</Name>
+					<Abstract type="html">Object containing the new metadata. This can be metadata hidden in the media (ID3, XMP, keyframes) or metadata broadcasted by the playback provider (bandwidth, quality switches).</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onAdMeta:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onOpenRelatedOverlay:relatedFile:items:</TokenIdentifier>
+			<Abstract type="html">onOpenRelatedOverlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onOpenRelatedOverlay:(JWRelatedOpenMethod)method relatedFile:(NSString *)relatedFile items:(NSArray&lt;JWPlaylistItem*&gt; *)items</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The method used to open the overlay. (api, complete, or interaction)</Abstract>
+				</Parameter><Parameter>
+					<Name>relatedFile</Name>
+					<Abstract type="html">The URL of the feed that was loaded into the player.</Abstract>
+				</Parameter><Parameter>
+					<Name>items</Name>
+					<Abstract type="html">An object of all objects that have been loaded into the related plugin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onOpenRelatedOverlay:relatedFile:items:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onCloseRelatedOverlay:</TokenIdentifier>
+			<Abstract type="html">onCloseRelatedOverlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCloseRelatedOverlay:(NSString *)method</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>method</Name>
+					<Abstract type="html">The method used to close the overlay. (api, complete, or click)</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCloseRelatedOverlay:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onRelatedPlay:auto:position:</TokenIdentifier>
+			<Abstract type="html">onRelatedPlay(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onRelatedPlay:(JWPlaylistItem *)item auto:(BOOL)autoplay position:(NSInteger)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>item</Name>
+					<Abstract type="html">Metadata for the chosen item specified in the feed.</Abstract>
+				</Parameter><Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Ordinal position of the related video that has been chosen.</Abstract>
+				</Parameter><Parameter>
+					<Name>auto</Name>
+					<Abstract type="html">Returns true if started via autoplay; false if manually started.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onRelatedPlay:auto:position:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onError:</TokenIdentifier>
+			<Abstract type="html">onError(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the reason for the error in property localizedDescription. See &quot;Common error messages&quot; on http://support.jwplayer.com/customer/portal/articles/1403682-troubleshooting-your-setup for a list of possible media errors.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onError:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWPlayerDelegate/onSetupError:</TokenIdentifier>
+			<Abstract type="html">onSetupError(callback)</Abstract>
+			<DeclaredIn>JWPlayerDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onSetupError:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message that describes why the player could not be setup. Error message can be accessed in property localizedDescription.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onSetupError:</Anchor>
+            <NodeRef refid="16"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

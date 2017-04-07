@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWPlaylistItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWPlaylistItem</TokenIdentifier>
+			<Abstract type="html">An object providing info about playlist items.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+            
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setSources:</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/sources</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/sources</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setFile:</TokenIdentifier>
+			<Abstract type="html">Video URL to a single video file, to be played using JW Player.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/file</TokenIdentifier>
+			<Abstract type="html">Video URL to a single video file, to be played using JW Player.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/file</TokenIdentifier>
+			<Abstract type="html">Video URL to a single video file, to be played using JW Player.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setImage:</TokenIdentifier>
+			<Abstract type="html">URL to a poster image. The image is displayed before and after playback, and in the listbar. For audio-only media, the poster image stays visible during playback.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/image</TokenIdentifier>
+			<Abstract type="html">URL to a poster image. The image is displayed before and after playback, and in the listbar. For audio-only media, the poster image stays visible during playback.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/image</TokenIdentifier>
+			<Abstract type="html">URL to a poster image. The image is displayed before and after playback, and in the listbar. For audio-only media, the poster image stays visible during playback.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setTitle:</TokenIdentifier>
+			<Abstract type="html">Title of the video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/title</TokenIdentifier>
+			<Abstract type="html">Title of the video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/title</TokenIdentifier>
+			<Abstract type="html">Title of the video.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setAssetOptions:</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/assetOptions</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/assetOptions</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setAdSchedule:</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivide info about ad breaks.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/adSchedule</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivide info about ad breaks.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/adSchedule</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivide info about ad breaks.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setTracks:</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/tracks</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/tracks</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setDesc:</TokenIdentifier>
+			<Abstract type="html">Short description of the item. It is displayed in the listbar.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/desc</TokenIdentifier>
+			<Abstract type="html">Short description of the item. It is displayed in the listbar.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/desc</TokenIdentifier>
+			<Abstract type="html">Short description of the item. It is displayed in the listbar.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *desc</Declaration>
+			
+			
+			<Anchor>//api/name/desc</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/setMediaId:</TokenIdentifier>
+			<Abstract type="html">The playlist item&apos;s Media ID.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *mediaId</Declaration>
+			
+			
+			<Anchor>//api/name/mediaId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlaylistItem/mediaId</TokenIdentifier>
+			<Abstract type="html">The playlist item&apos;s Media ID.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *mediaId</Declaration>
+			
+			
+			<Anchor>//api/name/mediaId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlaylistItem/mediaId</TokenIdentifier>
+			<Abstract type="html">The playlist item&apos;s Media ID.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *mediaId</Declaration>
+			
+			
+			<Anchor>//api/name/mediaId</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWPlaylistItem/playlistItemWithConfig:</TokenIdentifier>
+			<Abstract type="html">Inits a JWPlaylistItem object with provided JWConfig.</Abstract>
+			<DeclaredIn>JWPlaylistItem.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)playlistItemWithConfig:(JWConfig *)config</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>config</Name>
+					<Abstract type="html">configuration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playlistItemWithConfig:</Anchor>
+            <NodeRef refid="10"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

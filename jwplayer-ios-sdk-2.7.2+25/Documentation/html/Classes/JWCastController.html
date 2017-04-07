@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWCastController Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/availableDevices">availableDevices</option>
+		
+		<option value="//api/name/chromeCastReceiverAppID">chromeCastReceiverAppID</option>
+		
+		<option value="//api/name/connectedDevice">connectedDevice</option>
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/player">player</option>
+		
+	</optgroup>
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/cast">- cast</option>
+		
+		<option value="//api/name/connectToDevice:">- connectToDevice:</option>
+		
+		<option value="//api/name/disconnect">- disconnect</option>
+		
+		<option value="//api/name/initWithPlayer:">- initWithPlayer:</option>
+		
+		<option value="//api/name/scanForDevices">- scanForDevices</option>
+		
+		<option value="//api/name/stopCasting">- stopCasting</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWCastController Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWCastController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@class JWCastController
+A class that enables casting using the <a href="../Classes/JWPlayerController.html">JWPlayerController</a>.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/player" title="player"></a>
+	<h3 class="method-title"><code><a href="#//api/name/player">&nbsp;&nbsp;player</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Player instance.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) JWPlayerController *player</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>the instance of <a href="../Classes/JWPlayerController.html">JWPlayerController</a> in use.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/chromeCastReceiverAppID" title="chromeCastReceiverAppID"></a>
+	<h3 class="method-title"><code><a href="#//api/name/chromeCastReceiverAppID">&nbsp;&nbsp;chromeCastReceiverAppID</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The ChromeCast Application ID of the receiver application to which you wish to <a href="#//api/name/cast">cast</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSString *chromeCastReceiverAppID</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Set this property to a receiver&rsquo;s Application ID before scanning for devices in order to restrict the scan to chromeCast devices that support the receiver. Leaving this value nil results in scanning for all ChromeCast devices.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The object that acts as the delegate of the JWCastController.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;JWCastingDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The delegate must adopt the <a href="../Protocols/JWCastingDelegate.html">JWCastingDelegate</a> protocol. The delegate is not retained.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/connectedDevice" title="connectedDevice"></a>
+	<h3 class="method-title"><code><a href="#//api/name/connectedDevice">&nbsp;&nbsp;connectedDevice</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The casting device to which you are currently connected.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) JWCastingDevice *connectedDevice</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Will be nil if not connected to any casting devices.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/availableDevices" title="availableDevices"></a>
+	<h3 class="method-title"><code><a href="#//api/name/availableDevices">&nbsp;&nbsp;availableDevices</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The list of casting devices that are currently online.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSArray *availableDevices</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p><a href="#//api/name/scanForDevices">scanForDevices</a> must be called in order to start listening for devices.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithPlayer:" title="initWithPlayer:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithPlayer:">&ndash;&nbsp;initWithPlayer:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits the castController with a <a href="#//api/name/player">player</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithPlayer:(JWPlayerController *)<em>player</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>player</code></th>
+						<td><p><a href="../Classes/JWPlayerController.html">JWPlayerController</a> object currently in use.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/scanForDevices" title="scanForDevices"></a>
+	<h3 class="method-title"><code><a href="#//api/name/scanForDevices">&ndash;&nbsp;scanForDevices</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Scans for casting devices.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)scanForDevices</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/chromeCastReceiverAppID">@property chromeCastReceiverAppID</a>.</p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/connectToDevice:" title="connectToDevice:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/connectToDevice:">&ndash;&nbsp;connectToDevice:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Connects the castController to a casting device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)connectToDevice:(JWCastingDevice *)<em>device</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>device</code></th>
+						<td><p>The casting device to which the user would like to <a href="#//api/name/cast">cast</a>. A list of available devices can be obtained from the <a href="#//api/name/availableDevices">availableDevices</a> property.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/availableDevices">@property availableDevices</a>.</p></code></li>
+					
+					<li><code><p><a href="../Classes/JWCastingDevice.html">JWCastingDevice</a>.</p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/disconnect" title="disconnect"></a>
+	<h3 class="method-title"><code><a href="#//api/name/disconnect">&ndash;&nbsp;disconnect</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Disconnects the castController from the connected casting device.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)disconnect</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/cast" title="cast"></a>
+	<h3 class="method-title"><code><a href="#//api/name/cast">&ndash;&nbsp;cast</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Casts the file being currently reproduced by the linked <a href="../Classes/JWPlayerController.html">JWPlayerController</a> instance.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)cast</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>You must be connected to a casting device in order to cast.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stopCasting" title="stopCasting"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stopCasting">&ndash;&nbsp;stopCasting</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops the casting and resumes on the <a href="../Classes/JWPlayerController.html">JWPlayerController</a> instance when the <a href="#//api/name/cast">cast</a> reproduction left off.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stopCasting</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Calling this method does not <a href="#//api/name/disconnect">disconnect</a> from the casting device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

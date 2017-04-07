@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWTrack Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/defaultValue">defaultValue</option>
+		
+		<option value="//api/name/file">file</option>
+		
+		<option value="//api/name/kind">kind</option>
+		
+		<option value="//api/name/label">label</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/trackWithFile:label:">+ trackWithFile:label:</option>
+		
+		<option value="//api/name/trackWithFile:label:isDefault:">+ trackWithFile:label:isDefault:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/initWithFile:label:">- initWithFile:label:</option>
+		
+		<option value="//api/name/initWithFile:label:isDefault:">- initWithFile:label:isDefault:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWTrack Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWTrack.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>An object providing info about captions. Supports DFXP (TTML), SRT, WebVTT formats.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Accessing Captions Track Attributes" name="task_Accessing Captions Track Attributes"></a>
+						<h2 class="task-title">Accessing Captions Track Attributes</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/file" title="file"></a>
+	<h3 class="method-title"><code><a href="#//api/name/file">&nbsp;&nbsp;file</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Path to the captions file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *file</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/label" title="label"></a>
+	<h3 class="method-title"><code><a href="#//api/name/label">&nbsp;&nbsp;label</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Label to be shown in the player in captions popup.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *label</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>not shown if only 1 captions track provided.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/kind" title="kind"></a>
+	<h3 class="method-title"><code><a href="#//api/name/kind">&nbsp;&nbsp;kind</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>String representing kind of track.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *kind</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>only &lsquo;captions&rsquo; currently supported.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/defaultValue" title="defaultValue"></a>
+	<h3 class="method-title"><code><a href="#//api/name/defaultValue">&nbsp;&nbsp;defaultValue</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>If set to yes the player shows this captions track upon launch.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL defaultValue</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Creating Captions Track Object" name="task_Creating Captions Track Object"></a>
+						<h2 class="task-title">Creating Captions Track Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/trackWithFile:label:" title="trackWithFile:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackWithFile:label:">+&nbsp;trackWithFile:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates JWTrack object with provided <a href="#//api/name/file">file</a> and <a href="#//api/name/label">label</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)trackWithFile:(NSString *)<em>file</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>file</code></th>
+						<td><p>Path to the captions <a href="#//api/name/file">file</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>Label to be shown in the player in captions popup.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/trackWithFile:label:isDefault:" title="trackWithFile:label:isDefault:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/trackWithFile:label:isDefault:">+&nbsp;trackWithFile:label:isDefault:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates JWTrack object with provided <a href="#//api/name/file">file</a> and <a href="#//api/name/label">label</a> and sets current captions track as default.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)trackWithFile:(NSString *)<em>file</em> label:(NSString *)<em>label</em> isDefault:(BOOL)<em>def</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>file</code></th>
+						<td><p>Path to the captions <a href="#//api/name/file">file</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>Label to be shown in the player in captions popup.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>def</code></th>
+						<td><p>If set to yes the player shows this captions track upon launch.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Initializing Captions Track Object" name="task_Initializing Captions Track Object"></a>
+						<h2 class="task-title">Initializing Captions Track Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initWithFile:label:" title="initWithFile:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithFile:label:">&ndash;&nbsp;initWithFile:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits JWTrack object with provided <a href="#//api/name/file">file</a> and <a href="#//api/name/label">label</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithFile:(NSString *)<em>file</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>file</code></th>
+						<td><p>Path to the captions <a href="#//api/name/file">file</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>Label to be shown in the player in captions popup.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithFile:label:isDefault:" title="initWithFile:label:isDefault:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithFile:label:isDefault:">&ndash;&nbsp;initWithFile:label:isDefault:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits JWTrack object with provided <a href="#//api/name/file">file</a> and <a href="#//api/name/label">label</a> and sets current captions track as default.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithFile:(NSString *)<em>file</em> label:(NSString *)<em>label</em> isDefault:(BOOL)<em>def</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>file</code></th>
+						<td><p>Path to the captions <a href="#//api/name/file">file</a>.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>Label to be shown in the player in captions popup.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>def</code></th>
+						<td><p>If set to yes the player shows this captions track upon launch.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWTrack.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

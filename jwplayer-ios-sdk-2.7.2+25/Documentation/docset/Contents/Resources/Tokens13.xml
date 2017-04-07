@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWTrack.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+			<Abstract type="html">An object providing info about captions. Supports DFXP (TTML), SRT, WebVTT formats.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+            
+			
+			<NodeRef refid="13"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/setFile:</TokenIdentifier>
+			<Abstract type="html">Path to the captions file.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/file</TokenIdentifier>
+			<Abstract type="html">Path to the captions file.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWTrack/file</TokenIdentifier>
+			<Abstract type="html">Path to the captions file.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/setLabel:</TokenIdentifier>
+			<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/label</TokenIdentifier>
+			<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWTrack/label</TokenIdentifier>
+			<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *label</Declaration>
+			
+			
+			<Anchor>//api/name/label</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/setKind:</TokenIdentifier>
+			<Abstract type="html">String representing kind of track.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/kind</TokenIdentifier>
+			<Abstract type="html">String representing kind of track.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWTrack/kind</TokenIdentifier>
+			<Abstract type="html">String representing kind of track.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *kind</Declaration>
+			
+			
+			<Anchor>//api/name/kind</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/setDefaultValue:</TokenIdentifier>
+			<Abstract type="html">If set to yes the player shows this captions track upon launch.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL defaultValue</Declaration>
+			
+			
+			<Anchor>//api/name/defaultValue</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/defaultValue</TokenIdentifier>
+			<Abstract type="html">If set to yes the player shows this captions track upon launch.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL defaultValue</Declaration>
+			
+			
+			<Anchor>//api/name/defaultValue</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWTrack/defaultValue</TokenIdentifier>
+			<Abstract type="html">If set to yes the player shows this captions track upon launch.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL defaultValue</Declaration>
+			
+			
+			<Anchor>//api/name/defaultValue</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWTrack/trackWithFile:label:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates JWTrack object with provided file and label.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)trackWithFile:(NSString *)file label:(NSString *)label</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>file</Name>
+					<Abstract type="html">Path to the captions file.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/trackWithFile:label:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWTrack/trackWithFile:label:isDefault:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates JWTrack object with provided file and label and sets current captions track as default.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)trackWithFile:(NSString *)file label:(NSString *)label isDefault:(BOOL)def</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>file</Name>
+					<Abstract type="html">Path to the captions file.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+				</Parameter><Parameter>
+					<Name>def</Name>
+					<Abstract type="html">If set to yes the player shows this captions track upon launch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/trackWithFile:label:isDefault:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/initWithFile:label:</TokenIdentifier>
+			<Abstract type="html">Inits JWTrack object with provided file and label.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithFile:(NSString *)file label:(NSString *)label</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>file</Name>
+					<Abstract type="html">Path to the captions file.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFile:label:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWTrack/initWithFile:label:isDefault:</TokenIdentifier>
+			<Abstract type="html">Inits JWTrack object with provided file and label and sets current captions track as default.</Abstract>
+			<DeclaredIn>JWTrack.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithFile:(NSString *)file label:(NSString *)label isDefault:(BOOL)def</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>file</Name>
+					<Abstract type="html">Path to the captions file.</Abstract>
+				</Parameter><Parameter>
+					<Name>label</Name>
+					<Abstract type="html">Label to be shown in the player in captions popup.</Abstract>
+				</Parameter><Parameter>
+					<Name>def</Name>
+					<Abstract type="html">If set to yes the player shows this captions track upon launch.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithFile:label:isDefault:</Anchor>
+            <NodeRef refid="13"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

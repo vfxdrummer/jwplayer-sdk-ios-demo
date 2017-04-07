@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWCastController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWCastController</TokenIdentifier>
+			<Abstract type="html">@class JWCastController
+A class that enables casting using the JWPlayerController.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="5"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/setPlayer:</TokenIdentifier>
+			<Abstract type="html">Player instance.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JWPlayerController *player</Declaration>
+			
+			
+			<Anchor>//api/name/player</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/player</TokenIdentifier>
+			<Abstract type="html">Player instance.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JWPlayerController *player</Declaration>
+			
+			
+			<Anchor>//api/name/player</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCastController/player</TokenIdentifier>
+			<Abstract type="html">Player instance.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) JWPlayerController *player</Declaration>
+			
+			
+			<Anchor>//api/name/player</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/setChromeCastReceiverAppID:</TokenIdentifier>
+			<Abstract type="html">The ChromeCast Application ID of the receiver application to which you wish to cast.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *chromeCastReceiverAppID</Declaration>
+			
+			
+			<Anchor>//api/name/chromeCastReceiverAppID</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/chromeCastReceiverAppID</TokenIdentifier>
+			<Abstract type="html">The ChromeCast Application ID of the receiver application to which you wish to cast.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *chromeCastReceiverAppID</Declaration>
+			
+			
+			<Anchor>//api/name/chromeCastReceiverAppID</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCastController/chromeCastReceiverAppID</TokenIdentifier>
+			<Abstract type="html">The ChromeCast Application ID of the receiver application to which you wish to cast.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *chromeCastReceiverAppID</Declaration>
+			
+			
+			<Anchor>//api/name/chromeCastReceiverAppID</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the JWCastController.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;JWCastingDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the JWCastController.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;JWCastingDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCastController/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the JWCastController.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, weak) id&lt;JWCastingDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/setConnectedDevice:</TokenIdentifier>
+			<Abstract type="html">The casting device to which you are currently connected.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWCastingDevice *connectedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/connectedDevice</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/connectedDevice</TokenIdentifier>
+			<Abstract type="html">The casting device to which you are currently connected.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWCastingDevice *connectedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/connectedDevice</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCastController/connectedDevice</TokenIdentifier>
+			<Abstract type="html">The casting device to which you are currently connected.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWCastingDevice *connectedDevice</Declaration>
+			
+			
+			<Anchor>//api/name/connectedDevice</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/setAvailableDevices:</TokenIdentifier>
+			<Abstract type="html">The list of casting devices that are currently online.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *availableDevices</Declaration>
+			
+			
+			<Anchor>//api/name/availableDevices</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/availableDevices</TokenIdentifier>
+			<Abstract type="html">The list of casting devices that are currently online.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *availableDevices</Declaration>
+			
+			
+			<Anchor>//api/name/availableDevices</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCastController/availableDevices</TokenIdentifier>
+			<Abstract type="html">The list of casting devices that are currently online.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *availableDevices</Declaration>
+			
+			
+			<Anchor>//api/name/availableDevices</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/initWithPlayer:</TokenIdentifier>
+			<Abstract type="html">Inits the castController with a player.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithPlayer:(JWPlayerController *)player</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>player</Name>
+					<Abstract type="html">JWPlayerController object currently in use.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithPlayer:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/scanForDevices</TokenIdentifier>
+			<Abstract type="html">Scans for casting devices.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWCastController/chromeCastReceiverAppID</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)scanForDevices</Declaration>
+			
+			
+			<Anchor>//api/name/scanForDevices</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/connectToDevice:</TokenIdentifier>
+			<Abstract type="html">Connects the castController to a casting device.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWCastController/availableDevices</TokenIdentifier>
+		<TokenIdentifier>//apple_ref/occ/cl/JWCastingDevice</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)connectToDevice:(JWCastingDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The casting device to which the user would like to cast. A list of available devices can be obtained from the availableDevices property.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/connectToDevice:</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/disconnect</TokenIdentifier>
+			<Abstract type="html">Disconnects the castController from the connected casting device.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>- (void)disconnect</Declaration>
+			
+			
+			<Anchor>//api/name/disconnect</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/cast</TokenIdentifier>
+			<Abstract type="html">Casts the file being currently reproduced by the linked JWPlayerController instance.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>- (void)cast</Declaration>
+			
+			
+			<Anchor>//api/name/cast</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCastController/stopCasting</TokenIdentifier>
+			<Abstract type="html">Stops the casting and resumes on the JWPlayerController instance when the cast reproduction left off.</Abstract>
+			<DeclaredIn>JWCastController.h</DeclaredIn>
+			
+			<Declaration>- (void)stopCasting</Declaration>
+			
+			
+			<Anchor>//api/name/stopCasting</Anchor>
+            <NodeRef refid="5"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

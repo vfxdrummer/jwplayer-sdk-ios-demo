@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ObjCPlayerViewController.h"
 #import "JWPlayer_Developer_Guide-Swift.h"
+#import "JWPlayer-iOS-SDK/JWPlayerController.h"
 
 @interface ViewController ()
 

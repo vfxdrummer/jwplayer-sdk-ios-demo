@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/JWCastingDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/JWCastingDelegate</TokenIdentifier>
+			<Abstract type="html">@protocol JWCastingDelegate</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+            
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWCastController</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onCastingDevicesAvailable:</TokenIdentifier>
+			<Abstract type="html">onCastingDevicesAvailable</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWCastingDevice</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)onCastingDevicesAvailable:(NSArray&lt;JWCastingDevice*&gt; *)devices</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>devices</Name>
+					<Abstract type="html">List of casting devices that are currently online.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCastingDevicesAvailable:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onConnectedToCastingDevice:</TokenIdentifier>
+			<Abstract type="html">onConnectedToCastingDevice</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWCastingDevice</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)onConnectedToCastingDevice:(JWCastingDevice *)device</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>device</Name>
+					<Abstract type="html">The casting device to which the castController is connected to.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onConnectedToCastingDevice:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onDisconnectedFromCastingDevice:</TokenIdentifier>
+			<Abstract type="html">onDisconnectedFromCasting</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onDisconnectedFromCastingDevice:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message under property localizedDescription. Value will be nil if disconnection was purposeful.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onDisconnectedFromCastingDevice:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onConnectionTemporarilySuspended</TokenIdentifier>
+			<Abstract type="html">onConnectionTemporarilySuspended</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnectionTemporarilySuspended</Declaration>
+			
+			
+			<Anchor>//api/name/onConnectionTemporarilySuspended</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onConnectionRecovered</TokenIdentifier>
+			<Abstract type="html">onConnectionRecovered</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnectionRecovered</Declaration>
+			
+			
+			<Anchor>//api/name/onConnectionRecovered</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onConnectionFailed:</TokenIdentifier>
+			<Abstract type="html">onConnectionFailed</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onConnectionFailed:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message under property localizedDescription.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onConnectionFailed:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onCasting</TokenIdentifier>
+			<Abstract type="html">onCasting</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCasting</Declaration>
+			
+			
+			<Anchor>//api/name/onCasting</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onCastingFailed:</TokenIdentifier>
+			<Abstract type="html">onCastingFailed</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCastingFailed:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message under property localizedDescription.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCastingFailed:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWCastingDelegate/onCastingEnded:</TokenIdentifier>
+			<Abstract type="html">onCastingEnded</Abstract>
+			<DeclaredIn>JWCastingDelegate.h</DeclaredIn>
+			
+			<Declaration>- (void)onCastingEnded:(NSError *)error</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>error</Name>
+					<Abstract type="html">Object containing the error message under property localizedDescription. Can be nil if casting ended intentionally.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/onCastingEnded:</Anchor>
+            <NodeRef refid="14"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

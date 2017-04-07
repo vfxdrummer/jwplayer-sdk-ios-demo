@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWCaptionStyling.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWCaptionStyling</TokenIdentifier>
+			<Abstract type="html">Configuration object used to customize the captions. Must be set to the JWConfig object used to create the JWPlayerController.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/setFontColor:</TokenIdentifier>
+			<Abstract type="html">Overrides the default font color of the captions, including its opacity.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/fontColor</TokenIdentifier>
+			<Abstract type="html">Overrides the default font color of the captions, including its opacity.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCaptionStyling/fontColor</TokenIdentifier>
+			<Abstract type="html">Overrides the default font color of the captions, including its opacity.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *fontColor</Declaration>
+			
+			
+			<Anchor>//api/name/fontColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/setWindowColor:</TokenIdentifier>
+			<Abstract type="html">Changes the background color and the opacity of the overall window the captions reside in.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *windowColor</Declaration>
+			
+			
+			<Anchor>//api/name/windowColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/windowColor</TokenIdentifier>
+			<Abstract type="html">Changes the background color and the opacity of the overall window the captions reside in.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *windowColor</Declaration>
+			
+			
+			<Anchor>//api/name/windowColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCaptionStyling/windowColor</TokenIdentifier>
+			<Abstract type="html">Changes the background color and the opacity of the overall window the captions reside in.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *windowColor</Declaration>
+			
+			
+			<Anchor>//api/name/windowColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/setBackgroundColor:</TokenIdentifier>
+			<Abstract type="html">Changes the highlight color and highlight opacity of the text.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/backgroundColor</TokenIdentifier>
+			<Abstract type="html">Changes the highlight color and highlight opacity of the text.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCaptionStyling/backgroundColor</TokenIdentifier>
+			<Abstract type="html">Changes the highlight color and highlight opacity of the text.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIColor *backgroundColor</Declaration>
+			
+			
+			<Anchor>//api/name/backgroundColor</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/setFont:</TokenIdentifier>
+			<Abstract type="html">Overrides the default font style and font size.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/font</TokenIdentifier>
+			<Abstract type="html">Overrides the default font style and font size.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCaptionStyling/font</TokenIdentifier>
+			<Abstract type="html">Overrides the default font style and font size.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIFont *font</Declaration>
+			
+			
+			<Anchor>//api/name/font</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/setEdgeStyle:</TokenIdentifier>
+			<Abstract type="html">The edge style is an option to put emphasis around text. The available options are: none, dropshadow, raised, depressed, and uniform.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWEdgeStyle edgeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWCaptionStyling/edgeStyle</TokenIdentifier>
+			<Abstract type="html">The edge style is an option to put emphasis around text. The available options are: none, dropshadow, raised, depressed, and uniform.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWEdgeStyle edgeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWCaptionStyling/edgeStyle</TokenIdentifier>
+			<Abstract type="html">The edge style is an option to put emphasis around text. The available options are: none, dropshadow, raised, depressed, and uniform.</Abstract>
+			<DeclaredIn>JWCaptionStyling.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWEdgeStyle edgeStyle</Declaration>
+			
+			
+			<Anchor>//api/name/edgeStyle</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

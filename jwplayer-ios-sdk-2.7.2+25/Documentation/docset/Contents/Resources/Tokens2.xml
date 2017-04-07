@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWAdCompanion.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWAdCompanion</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/setClickUrl:</TokenIdentifier>
+			<Abstract type="html">URL to link to when clicking the companion. Only available if the type is static.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *clickUrl</Declaration>
+			
+			
+			<Anchor>//api/name/clickUrl</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/clickUrl</TokenIdentifier>
+			<Abstract type="html">URL to link to when clicking the companion. Only available if the type is static.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *clickUrl</Declaration>
+			
+			
+			<Anchor>//api/name/clickUrl</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdCompanion/clickUrl</TokenIdentifier>
+			<Abstract type="html">URL to link to when clicking the companion. Only available if the type is static.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *clickUrl</Declaration>
+			
+			
+			<Anchor>//api/name/clickUrl</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/setDimensions:</TokenIdentifier>
+			<Abstract type="html">The dimensions of the companion in pixels.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/dimensions</TokenIdentifier>
+			<Abstract type="html">The dimensions of the companion in pixels.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdCompanion/dimensions</TokenIdentifier>
+			<Abstract type="html">The dimensions of the companion in pixels.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize dimensions</Declaration>
+			
+			
+			<Anchor>//api/name/dimensions</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/setResource:</TokenIdentifier>
+			<Abstract type="html">The URL to the static/iframe resource, or the raw HTML content.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *resource</Declaration>
+			
+			
+			<Anchor>//api/name/resource</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/resource</TokenIdentifier>
+			<Abstract type="html">The URL to the static/iframe resource, or the raw HTML content.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *resource</Declaration>
+			
+			
+			<Anchor>//api/name/resource</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdCompanion/resource</TokenIdentifier>
+			<Abstract type="html">The URL to the static/iframe resource, or the raw HTML content.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *resource</Declaration>
+			
+			
+			<Anchor>//api/name/resource</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/setType:</TokenIdentifier>
+			<Abstract type="html">The type of the creative: STATIC, IFRAME, or HTML.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWAdCompanionType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/type</TokenIdentifier>
+			<Abstract type="html">The type of the creative: STATIC, IFRAME, or HTML.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWAdCompanionType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdCompanion/type</TokenIdentifier>
+			<Abstract type="html">The type of the creative: STATIC, IFRAME, or HTML.</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) JWAdCompanionType type</Declaration>
+			
+			
+			<Anchor>//api/name/type</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/setCreativeView:</TokenIdentifier>
+			<Abstract type="html">An array of included creativeview event tracking pixels</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray&lt;NSString*&gt; *creativeView</Declaration>
+			
+			
+			<Anchor>//api/name/creativeView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdCompanion/creativeView</TokenIdentifier>
+			<Abstract type="html">An array of included creativeview event tracking pixels</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray&lt;NSString*&gt; *creativeView</Declaration>
+			
+			
+			<Anchor>//api/name/creativeView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdCompanion/creativeView</TokenIdentifier>
+			<Abstract type="html">An array of included creativeview event tracking pixels</Abstract>
+			<DeclaredIn>JWAdCompanion.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray&lt;NSString*&gt; *creativeView</Declaration>
+			
+			
+			<Anchor>//api/name/creativeView</Anchor>
+            <NodeRef refid="2"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

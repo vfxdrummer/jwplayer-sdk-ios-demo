@@ -1,0 +1,2722 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWPlayerController Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/audioTracks">audioTracks</option>
+		
+		<option value="//api/name/buffer">buffer</option>
+		
+		<option value="//api/name/captionsList">captionsList</option>
+		
+		<option value="//api/name/config">config</option>
+		
+		<option value="//api/name/controls">controls</option>
+		
+		<option value="//api/name/currentAudioTrack">currentAudioTrack</option>
+		
+		<option value="//api/name/currentCaptions">currentCaptions</option>
+		
+		<option value="//api/name/currentQualityLevel">currentQualityLevel</option>
+		
+		<option value="//api/name/delegate">delegate</option>
+		
+		<option value="//api/name/displayLockScreenControls">displayLockScreenControls</option>
+		
+		<option value="//api/name/drmDataSource">drmDataSource</option>
+		
+		<option value="//api/name/duration">duration</option>
+		
+		<option value="//api/name/forceFullScreenOnLandscape">forceFullScreenOnLandscape</option>
+		
+		<option value="//api/name/forceLandscapeOnFullScreen">forceLandscapeOnFullScreen</option>
+		
+		<option value="//api/name/googleChromeCastVersion">googleChromeCastVersion</option>
+		
+		<option value="//api/name/googleIMAVersion">googleIMAVersion</option>
+		
+		<option value="//api/name/isInFullscreen">isInFullscreen</option>
+		
+		<option value="//api/name/levels">levels</option>
+		
+		<option value="//api/name/metadata">metadata</option>
+		
+		<option value="//api/name/naturalSize">naturalSize</option>
+		
+		<option value="//api/name/openSafariOnAdClick">openSafariOnAdClick</option>
+		
+		<option value="//api/name/pictureInPictureDisabled">pictureInPictureDisabled</option>
+		
+		<option value="//api/name/playbackPosition">playbackPosition</option>
+		
+		<option value="//api/name/playbackRate">playbackRate</option>
+		
+		<option value="//api/name/playerEdition">playerEdition</option>
+		
+		<option value="//api/name/playerState">playerState</option>
+		
+		<option value="//api/name/playerVersion">playerVersion</option>
+		
+		<option value="//api/name/playlistIndex">playlistIndex</option>
+		
+		<option value="//api/name/safeRegion">safeRegion</option>
+		
+		<option value="//api/name/view">view</option>
+		
+		<option value="//api/name/volume">volume</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/SDKVersion">+ SDKVersion</option>
+		
+		<option value="//api/name/SDKVersionToMinor">+ SDKVersionToMinor</option>
+		
+		<option value="//api/name/setPlayerKey:">+ setPlayerKey:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/closeRelatedOverlay">- closeRelatedOverlay</option>
+		
+		<option value="//api/name/enterFullScreen">- enterFullScreen</option>
+		
+		<option value="//api/name/exitFullScreen">- exitFullScreen</option>
+		
+		<option value="//api/name/initWithConfig:">- initWithConfig:</option>
+		
+		<option value="//api/name/initWithConfig:delegate:">- initWithConfig:delegate:</option>
+		
+		<option value="//api/name/initWithConfig:delegate:drmDataSource:">- initWithConfig:delegate:drmDataSource:</option>
+		
+		<option value="//api/name/load:">- load:</option>
+		
+		<option value="//api/name/loadConfig:">- loadConfig:</option>
+		
+		<option value="//api/name/loadPlaylist:">- loadPlaylist:</option>
+		
+		<option value="//api/name/openRelatedOverlay">- openRelatedOverlay</option>
+		
+		<option value="//api/name/pause">- pause</option>
+		
+		<option value="//api/name/play">- play</option>
+		
+		<option value="//api/name/playAd:">- playAd:</option>
+		
+		<option value="//api/name/playAd:onClient:">- playAd:onClient:</option>
+		
+		<option value="//api/name/seek:">- seek:</option>
+		
+		<option value="//api/name/stop">- stop</option>
+		
+		<option value="//api/name/togglePictureInPicture">- togglePictureInPicture</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWPlayerController Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWPlayerController.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>A class that encapsulates JW Player and provides control over the playback as well as holds the state of the player and notifies about status updates.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Accessing Player Controller Attributes" name="task_Accessing Player Controller Attributes"></a>
+						<h2 class="task-title">Accessing Player Controller Attributes</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/view" title="view"></a>
+	<h3 class="method-title"><code><a href="#//api/name/view">&nbsp;&nbsp;view</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Player view.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) UIView *view</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>to be added to the application view hierarchy.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The object that acts as the delegate of the jwPlayerController.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;JWPlayerDelegate&gt; delegate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The delegate must adopt the <a href="../Protocols/JWPlayerDelegate.html">JWPlayerDelegate</a> protocol. The delegate is not retained.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Protocols/JWPlayerDelegate.html">JWPlayerDelegate</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/drmDataSource" title="drmDataSource"></a>
+	<h3 class="method-title"><code><a href="#//api/name/drmDataSource">&nbsp;&nbsp;drmDataSource</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The <a href="../Protocols/JWDrmDataSource.html">JWDrmDataSource</a> is adopted by an object that mediates the application&rsquo;s data model and key server. The data source provides the JWPlayerController object with the data needed to reproduce encrypted content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, weak) id&lt;JWDrmDataSource&gt; drmDataSource</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>The drmDataSource must adopt the <a href="../Protocols/JWDrmDataSource.html">JWDrmDataSource</a> protocol. The drmDataSource is not retained.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Protocols/JWDrmDataSource.html">JWDrmDataSource</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/googleIMAVersion" title="googleIMAVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/googleIMAVersion">&nbsp;&nbsp;googleIMAVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the version of google IMA framework used by the SDK.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSString *googleIMAVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/googleChromeCastVersion" title="googleChromeCastVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/googleChromeCastVersion">&nbsp;&nbsp;googleChromeCastVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the version of google ChromeCast framework used by the SDK.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSString *googleChromeCastVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/playerState" title="playerState"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playerState">&nbsp;&nbsp;playerState</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns current state of the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSString *playerState</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Can be &ldquo;idle&rdquo;, &ldquo;playing&rdquo;, &ldquo;paused&rdquo; and &ldquo;buffering&rdquo;.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/metadata" title="metadata"></a>
+	<h3 class="method-title"><code><a href="#//api/name/metadata">&nbsp;&nbsp;metadata</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Metadata associated with the current video. Usually includes dimensions and <a href="#//api/name/duration">duration</a> of the video.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSDictionary *metadata</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>becomes available shortly after the video starts playing. There is a notification JWMetaDataAvailableNotification posted right after metadata is available.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/naturalSize" title="naturalSize"></a>
+	<h3 class="method-title"><code><a href="#//api/name/naturalSize">&nbsp;&nbsp;naturalSize</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Dimensions of the current video. Becomes available shortly after the video starts to <a href="#//api/name/play">play</a> as a part of <a href="#//api/name/metadata">metadata</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGSize naturalSize</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/config" title="config"></a>
+	<h3 class="method-title"><code><a href="#//api/name/config">&nbsp;&nbsp;config</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="../Classes/JWConfig.html">JWConfig</a> object that was used to setup the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) JWConfig *config</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Check <a href="../Classes/JWConfig.html">JWConfig</a> documentation for more info.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/buffer" title="buffer"></a>
+	<h3 class="method-title"><code><a href="#//api/name/buffer">&nbsp;&nbsp;buffer</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the current PlaylistItem&rsquo;s filled buffer, as a percentage (0 to 100) of the total video&rsquo;s length.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSInteger buffer</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This only applies to progressive downloads of media (MP4/FLV/WebM and AAC/MP3/Vorbis); streaming media (HLS/RTMP/YouTube/DASH) do not expose this behavior.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/controls" title="controls"></a>
+	<h3 class="method-title"><code><a href="#//api/name/controls">&nbsp;&nbsp;controls</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Enable the built-in controls by setting them true, disable the controls by setting them false.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL controls</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/displayLockScreenControls" title="displayLockScreenControls"></a>
+	<h3 class="method-title"><code><a href="#//api/name/displayLockScreenControls">&nbsp;&nbsp;displayLockScreenControls</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>When enabled, the user will be able to control playback of the current video (<a href="#//api/name/play">play</a>, <a href="#//api/name/pause">pause</a>, and when applicable next/previous) from the device&rsquo;s Lock Screen and some information (title, playback position, <a href="#//api/name/duration">duration</a>, poster image) will be presented on the lockscreen. Defaults to YES.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL displayLockScreenControls</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>In order for the lock screen <a href="#//api/name/controls">controls</a> to appear, background audio must be enabled and the audio session must be set to AVAudioSessionCategoryPlayback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/safeRegion" title="safeRegion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/safeRegion">&nbsp;&nbsp;safeRegion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Returns the region of the dis<a href="#//api/name/play">play</a> not used by the <a href="#//api/name/controls">controls</a>. You can use this information to ensure your visual assets don&rsquo;t overlap with the <a href="#//api/name/controls">controls</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) CGRect safeRegion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Video Quality Levels" name="task_Managing Video Quality Levels"></a>
+						<h2 class="task-title">Managing Video Quality Levels</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/currentQualityLevel" title="currentQualityLevel"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentQualityLevel">&nbsp;&nbsp;currentQualityLevel</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The index of the object in quality <a href="#//api/name/levels">levels</a> list currently used by the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger currentQualityLevel</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/levels" title="levels"></a>
+	<h3 class="method-title"><code><a href="#//api/name/levels">&nbsp;&nbsp;levels</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>List of quality levels available for the current media.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSArray *levels</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Closed Captions" name="task_Managing Closed Captions"></a>
+						<h2 class="task-title">Managing Closed Captions</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/currentCaptions" title="currentCaptions"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentCaptions">&nbsp;&nbsp;currentCaptions</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The index of the caption object in captions list currently used by the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger currentCaptions</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>index 0 stands for no caption.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/captionsList">@property captionsList</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/captionsList" title="captionsList"></a>
+	<h3 class="method-title"><code><a href="#//api/name/captionsList">&nbsp;&nbsp;captionsList</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>List of all the captions supplied in the <a href="#//api/name/config">config</a></p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSArray *captionsList</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Use <a href="#//api/name/currentCaptions">currentCaptions</a> to activate one of the captions programmatically.
+Object at index 0 is &ldquo;off&rdquo;.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/currentCaptions">@property currentCaptions</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Audio Tracks" name="task_Managing Audio Tracks"></a>
+						<h2 class="task-title">Managing Audio Tracks</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/currentAudioTrack" title="currentAudioTrack"></a>
+	<h3 class="method-title"><code><a href="#//api/name/currentAudioTrack">&nbsp;&nbsp;currentAudioTrack</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The index of the currently active audio track.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger currentAudioTrack</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/audioTracks" title="audioTracks"></a>
+	<h3 class="method-title"><code><a href="#//api/name/audioTracks">&nbsp;&nbsp;audioTracks</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Array with audio tracks from the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSArray *audioTracks</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Playlists" name="task_Managing Playlists"></a>
+						<h2 class="task-title">Managing Playlists</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/playlistIndex" title="playlistIndex"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playlistIndex">&nbsp;&nbsp;playlistIndex</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The index of the currently active item in the playlist.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) NSInteger playlistIndex</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Initializing Player Controller Object" name="task_Initializing Player Controller Object"></a>
+						<h2 class="task-title">Initializing Player Controller Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initWithConfig:" title="initWithConfig:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithConfig:">&ndash;&nbsp;initWithConfig:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits the player with <a href="#//api/name/config">config</a> object in <a href="../Classes/JWConfig.html">JWConfig</a> format.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfig:(JWConfig *)<em>config</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>config</code></th>
+						<td><p><a href="../Classes/JWConfig.html">JWConfig</a> object that is used to setup the player.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithConfig:delegate:" title="initWithConfig:delegate:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithConfig:delegate:">&ndash;&nbsp;initWithConfig:delegate:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits the player with <a href="#//api/name/config">config</a> object in <a href="../Classes/JWConfig.html">JWConfig</a> format and sets the object that acts as the <a href="#//api/name/delegate">delegate</a> of the JWPlayerController.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfig:(JWConfig *)<em>config</em> delegate:(id&lt;JWPlayerDelegate&gt;)<em>delegate</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>config</code></th>
+						<td><p><a href="../Classes/JWConfig.html">JWConfig</a> object that is used to setup the player.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>The object that acts as the <a href="#//api/name/delegate">delegate</a> of the jwPlayerController.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Protocols/JWPlayerDelegate.html">JWPlayerDelegate</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/initWithConfig:delegate:drmDataSource:" title="initWithConfig:delegate:drmDataSource:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithConfig:delegate:drmDataSource:">&ndash;&nbsp;initWithConfig:delegate:drmDataSource:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits the player with a <a href="../Classes/JWConfig.html">JWConfig</a> object and sets the object that acts as a DRM data source, as well as the <a href="#//api/name/delegate">delegate</a> of the JWPlayerController.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithConfig:(JWConfig *)<em>config</em> delegate:(id&lt;JWPlayerDelegate&gt;)<em>delegate</em> drmDataSource:(id&lt;JWDrmDataSource&gt;)<em>drmDataSource</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>config</code></th>
+						<td><p><a href="../Classes/JWConfig.html">JWConfig</a> object that is used to setup the player.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>delegate</code></th>
+						<td><p>The object that acts as the <a href="#//api/name/delegate">delegate</a> of the jwPlayerController.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>drmDataSource</code></th>
+						<td><p>The object that acts as a data source for reproducing drm encrypted content.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Protocols/JWPlayerDelegate.html">JWPlayerDelegate</a>, <a href="../Protocols/JWDrmDataSource.html">JWDrmDataSource</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Playback" name="task_Managing Playback"></a>
+						<h2 class="task-title">Managing Playback</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/play" title="play"></a>
+	<h3 class="method-title"><code><a href="#//api/name/play">&ndash;&nbsp;play</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Starts to play video from current position.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)play</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pause" title="pause"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pause">&ndash;&nbsp;pause</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Pauses video.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)pause</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/stop" title="stop"></a>
+	<h3 class="method-title"><code><a href="#//api/name/stop">&ndash;&nbsp;stop</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Stops the player (returning it to the idle state) and unloads the currently playing media file.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)stop</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/seek:" title="seek:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/seek:">&ndash;&nbsp;seek:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Time in the video to seek to</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)seek:(NSUInteger)<em>position</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>Time in the video to seek to</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="#//api/name/duration">@property duration</a></p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/playbackPosition" title="playbackPosition"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playbackPosition">&nbsp;&nbsp;playbackPosition</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Playback position of the current video.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSNumber *playbackPosition</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>gets updated as the video plays. JWPlaybackProgressNotification is posted every time position changes. KVO compliant.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/duration" title="duration"></a>
+	<h3 class="method-title"><code><a href="#//api/name/duration">&nbsp;&nbsp;duration</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Duration of the current video. Becomes available shortly after the video starts to <a href="#//api/name/play">play</a> as a part of <a href="#//api/name/metadata">metadata</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) double duration</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/volume" title="volume"></a>
+	<h3 class="method-title"><code><a href="#//api/name/volume">&nbsp;&nbsp;volume</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The volume of the JWPlayerController&rsquo;s audio. At 0.0 the player is muted, at 1.0 the player&rsquo;s volume is as loud as the device&rsquo;s volume.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat volume</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This property should be used to control the volume of the player relative to other audio output, not for volume              control by viewers. This property will have no effect when ads are played using Google IMA, or when casting. Viewers can control volume when casting by changing the device&rsquo;s volume.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/playbackRate" title="playbackRate"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playbackRate">&nbsp;&nbsp;playbackRate</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>The rate at which media is being reproduced.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) CGFloat playbackRate</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Setting this property to 1.0 will <a href="#//api/name/play">play</a> the media at its natural rate. Ability to set a different value is limited to the rates supported by the media item; if an unsupported rate is requested, playbackRate will not change. Rates between 0.0 and 1.0 will slow forward, rates greater than 1.0 will fast forward, rates between 0.0 and -1.0 will slow reverse, and rates lower than -1.0 will fast reverse. This property will have no effect when ads are being played, or when casting. Cannot be set to 0; to <a href="#//api/name/pause">pause</a> playback, please call the <a href="#//api/name/pause">pause</a> method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Managing Full Screen / Picture in Picture" name="task_Managing Full Screen / Picture in Picture"></a>
+						<h2 class="task-title">Managing Full Screen / Picture in Picture</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/isInFullscreen" title="isInFullscreen"></a>
+	<h3 class="method-title"><code><a href="#//api/name/isInFullscreen">&nbsp;&nbsp;isInFullscreen</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A Boolean value that determines whether the video is in full screen.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) BOOL isInFullscreen</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/forceFullScreenOnLandscape" title="forceFullScreenOnLandscape"></a>
+	<h3 class="method-title"><code><a href="#//api/name/forceFullScreenOnLandscape">&nbsp;&nbsp;forceFullScreenOnLandscape</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A Boolean value that determines whether the video should go to full screen mode when the device rotates to landscape.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL forceFullScreenOnLandscape</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Make sure your app supports landscape to make this property work.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/forceLandscapeOnFullScreen" title="forceLandscapeOnFullScreen"></a>
+	<h3 class="method-title"><code><a href="#//api/name/forceLandscapeOnFullScreen">&nbsp;&nbsp;forceLandscapeOnFullScreen</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A Boolean value that determines whether the video should rotate to landscape when the fullscreen button is pressed.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL forceLandscapeOnFullScreen</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Make sure your app supports landscape to make this property work.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/pictureInPictureDisabled" title="pictureInPictureDisabled"></a>
+	<h3 class="method-title"><code><a href="#//api/name/pictureInPictureDisabled">&nbsp;&nbsp;pictureInPictureDisabled</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>A Boolean value that determines whether the video should allow Picture In Picture dis<a href="#//api/name/play">play</a>. Default value is NO.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL pictureInPictureDisabled</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Picture in Picture is only available on iPad Pro, iPad Air (or later), and iPad mini 2 (or later) running iOS 9.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/enterFullScreen" title="enterFullScreen"></a>
+	<h3 class="method-title"><code><a href="#//api/name/enterFullScreen">&ndash;&nbsp;enterFullScreen</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Switches the player to full screen mode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)enterFullScreen</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/exitFullScreen" title="exitFullScreen"></a>
+	<h3 class="method-title"><code><a href="#//api/name/exitFullScreen">&ndash;&nbsp;exitFullScreen</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Switches the player to inline mode.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)exitFullScreen</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/togglePictureInPicture" title="togglePictureInPicture"></a>
+	<h3 class="method-title"><code><a href="#//api/name/togglePictureInPicture">&ndash;&nbsp;togglePictureInPicture</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Toggles the player into and out of Picture In Picture dis<a href="#//api/name/play">play</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)togglePictureInPicture</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Picture in Picture is only available on iPad Pro, iPad Air (or later), and iPad mini 2 (or later) running iOS 9.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Loading New Media" name="task_Loading New Media"></a>
+						<h2 class="task-title">Loading New Media</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/load:" title="load:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/load:">&ndash;&nbsp;load:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Loads a new file into the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)load:(NSString *)<em>file</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>file</code></th>
+						<td><p>Video URL to <a href="#//api/name/play">play</a> using JW Player.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/loadConfig:" title="loadConfig:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loadConfig:">&ndash;&nbsp;loadConfig:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Loads a new <a href="../Classes/JWConfig.html">JWConfig</a> object into the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)loadConfig:(JWConfig *)<em>config</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>config</code></th>
+						<td><p>COnfiguration object.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/loadPlaylist:" title="loadPlaylist:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/loadPlaylist:">&ndash;&nbsp;loadPlaylist:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Loads a new playlist into the player.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)loadPlaylist:(NSArray *)<em>playlist</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>playlist</code></th>
+						<td><p>An array containing playlist items.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Injecting Ads" name="task_Injecting Ads"></a>
+						<h2 class="task-title">Injecting Ads</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/playAd:" title="playAd:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playAd:">&ndash;&nbsp;playAd:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Immediately starts to <a href="#//api/name/play">play</a> an ad using the vastPlugin.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)playAd:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>Xml file with info about the ad.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Usually used to inject an ad in streams where you can&rsquo;t schedule an ad. If you wish to <a href="#//api/name/play">play</a> the ad with the Google IMA Client, please use <a href="#//api/name/playAd:onClient:">playAd:onClient:</a> instead and specify &lsquo;googima&rsquo; as your ad client.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/playAd:onClient:" title="playAd:onClient:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playAd:onClient:">&ndash;&nbsp;playAd:onClient:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Immediately starts to <a href="#//api/name/play">play</a> an ad.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)playAd:(NSString *)<em>tag</em> onClient:(JWAdClient)<em>adClient</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>Xml file with info about the ad.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adClient</code></th>
+						<td><p>Set to googima if you wish to use google IMA; set to vastPlugin if not. Setting to nil defaults to vastPlugin. Note: Due to the fact that Google IMA&rsquo;s iOS SDK is still in Beta mode, we suggest using the vastPlugin.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Usually used to inject an ad in streams where you can&rsquo;t schedule an ad.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/openSafariOnAdClick" title="openSafariOnAdClick"></a>
+	<h3 class="method-title"><code><a href="#//api/name/openSafariOnAdClick">&nbsp;&nbsp;openSafariOnAdClick</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>If set to YES will open Safari after the user clicks the ad.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL openSafariOnAdClick</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Related" name="task_Related"></a>
+						<h2 class="task-title">Related</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/openRelatedOverlay" title="openRelatedOverlay"></a>
+	<h3 class="method-title"><code><a href="#//api/name/openRelatedOverlay">&ndash;&nbsp;openRelatedOverlay</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Opens the related overlay. This will <a href="#//api/name/pause">pause</a> content if it is currently playing.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)openRelatedOverlay</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/closeRelatedOverlay" title="closeRelatedOverlay"></a>
+	<h3 class="method-title"><code><a href="#//api/name/closeRelatedOverlay">&ndash;&nbsp;closeRelatedOverlay</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Closes the related plugin overlay. This will resume content.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)closeRelatedOverlay</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Accessing SDK Info" name="task_Accessing SDK Info"></a>
+						<h2 class="task-title">Accessing SDK Info</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/playerVersion" title="playerVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playerVersion">&nbsp;&nbsp;playerVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Version of underlying web player</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSString *playerVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/playerEdition" title="playerEdition"></a>
+	<h3 class="method-title"><code><a href="#//api/name/playerEdition">&nbsp;&nbsp;playerEdition</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Player edition based on the provided JW License key</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain, readonly) NSString *playerEdition</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/SDKVersion" title="SDKVersion"></a>
+	<h3 class="method-title"><code><a href="#//api/name/SDKVersion">+&nbsp;SDKVersion</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Version of the iOS SDK</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)SDKVersion</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/SDKVersionToMinor" title="SDKVersionToMinor"></a>
+	<h3 class="method-title"><code><a href="#//api/name/SDKVersionToMinor">+&nbsp;SDKVersionToMinor</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Version of the iOS SDK, truncated.
+(i.e.: if <a href="#//api/name/SDKVersion">SDKVersion</a> returns 1.001, SDKVersionToMinor returns 1.).</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (NSString *)SDKVersionToMinor</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/setPlayerKey:" title="setPlayerKey:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/setPlayerKey:">+&nbsp;setPlayerKey:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Sets the Player Key programmatically instead of having to type it into the application&rsquo;s info.plist. We recommend setting the key in the AppDelegate&rsquo;s application:didFinishLaunchingWithOptions: method.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (void)setPlayerKey:(NSString *)<em>key</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>If a different key is entered in the info.plist, the key set with this method will supersede. Use this method before instantiating the JWPlayerController, ideally in the AppDelegate&rsquo;s application:didFinishLaunchingWithOptions: method.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerController.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

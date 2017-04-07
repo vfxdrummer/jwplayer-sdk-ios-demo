@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWAdBreak Class Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+	<optgroup label="Properties">
+		
+		<option value="//api/name/nonLinear">nonLinear</option>
+		
+		<option value="//api/name/offset">offset</option>
+		
+		<option value="//api/name/tag">tag</option>
+		
+		<option value="//api/name/tags">tags</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Class Methods">
+		
+		<option value="//api/name/adBreakWithTag:offset:">+ adBreakWithTag:offset:</option>
+		
+		<option value="//api/name/adBreakWithTag:offset:nonLinear:">+ adBreakWithTag:offset:nonLinear:</option>
+		
+		<option value="//api/name/adBreakWithTags:offset:">+ adBreakWithTags:offset:</option>
+		
+		<option value="//api/name/adBreakWithTags:offset:nonLinear:">+ adBreakWithTags:offset:nonLinear:</option>
+		
+	</optgroup>
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/initWithTags:offset:">- initWithTags:offset:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWAdBreak Class Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Inherits from</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWAdBreak.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>JWAdBreak is an object providing info for an ad break in a video, played using JWPlayer.
+single AdBreak or a set of multiple AdBreak should be fed to <a href="../Classes/JWConfig.html">JWConfig</a> as an adSchedule array</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						<a title="Accessing Ad Break Attributes" name="task_Accessing Ad Break Attributes"></a>
+						<h2 class="task-title">Accessing Ad Break Attributes</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/offset" title="offset"></a>
+	<h3 class="method-title"><code><a href="#//api/name/offset">&nbsp;&nbsp;offset</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Offset of the ad. Describes the point in time at which to play the ad.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *offset</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Supported formats are:</p><ul>
+<li>pre: specifies that the ad should be played before the video content.</li>
+</ul>
+<ul>
+<li>post: specifies that the ad should be played after the video content.</li>
+</ul>
+<ul>
+<li>seconds - &lsquo;50&rsquo;</li>
+</ul>
+<ul>
+<li>fractional seconds - &lsquo;50.5&rsquo;</li>
+</ul>
+<ul>
+<li>percentage of the entire video - &lsquo;50%&rsquo;</li>
+</ul>
+<ul>
+<li>hours, minutes, seconds, milliseconds : &lsquo;hh:mm:ss.mmm&rsquo;</li>
+</ul>
+
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tag" title="tag"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tag">&nbsp;&nbsp;tag</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This option is the URL to the ad tag, which contains the VAST response.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *tag</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/tags" title="tags"></a>
+	<h3 class="method-title"><code><a href="#//api/name/tags">&nbsp;&nbsp;tags</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>This option is the array of URLs to the ad tags, which contains the VAST response.
+@description tags array is used as a waterfall: if the first <a href="#//api/name/tag">tag</a> fails to play, the player falls back to the second in the list and so on, until it finds one that can be played.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSArray *tags</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>ONLY ONE AD FROM ARRAY IS PLAYED.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/nonLinear" title="nonLinear"></a>
+	<h3 class="method-title"><code><a href="#//api/name/nonLinear">&nbsp;&nbsp;nonLinear</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Set to &lsquo;YES&rsquo; if the ad <a href="#//api/name/tag">tag</a> is an overlay ad banner.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>@property (nonatomic) BOOL nonLinear</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Non-linear ads are not supported by Goolge IMA as of version B15. Setting this property to &lsquo;YES&rsquo; while using Google IMA will result in an assertion.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Creating Ad Break Object" name="task_Creating Ad Break Object"></a>
+						<h2 class="task-title">Creating Ad Break Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/adBreakWithTag:offset:nonLinear:" title="adBreakWithTag:offset:nonLinear:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/adBreakWithTag:offset:nonLinear:">+&nbsp;adBreakWithTag:offset:nonLinear:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates a linear or non-linear AdBreak with <a href="#//api/name/tag">tag</a> and <a href="#//api/name/offset">offset</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)adBreakWithTag:(NSString *)<em>tag</em> offset:(NSString *)<em>offset</em> nonLinear:(BOOL)<em>nonLinear</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>This option is the URL to the ad <a href="#//api/name/tag">tag</a>, which contains the VAST response.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Offset of the ad.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nonLinear</code></th>
+						<td><p>Boolean value that determines if adbreak is non-linear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/adBreakWithTags:offset:nonLinear:" title="adBreakWithTags:offset:nonLinear:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/adBreakWithTags:offset:nonLinear:">+&nbsp;adBreakWithTags:offset:nonLinear:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates a linear or non-linear AdBreak with waterfall <a href="#//api/name/tags">tags</a> and <a href="#//api/name/offset">offset</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)adBreakWithTags:(NSArray *)<em>tags</em> offset:(NSString *)<em>offset</em> nonLinear:(BOOL)<em>nonLinear</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tags</code></th>
+						<td><p>This option is the array of URLs to the ad <a href="#//api/name/tags">tags</a>, which contains the VAST response.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Offset of the ad.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>nonLinear</code></th>
+						<td><p>Boolean value that determines if adbreak is non-linear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/adBreakWithTag:offset:" title="adBreakWithTag:offset:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/adBreakWithTag:offset:">+&nbsp;adBreakWithTag:offset:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates an AdBreak with <a href="#//api/name/tag">tag</a> and <a href="#//api/name/offset">offset</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)adBreakWithTag:(NSString *)<em>tag</em> offset:(NSString *)<em>offset</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>This option is the URL to the ad <a href="#//api/name/tag">tag</a>, which contains the VAST response.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Offset of the ad.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/adBreakWithTags:offset:" title="adBreakWithTags:offset:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/adBreakWithTags:offset:">+&nbsp;adBreakWithTags:offset:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Factory method that creates an AdBreak with waterfall <a href="#//api/name/tags">tags</a> and <a href="#//api/name/offset">offset</a>.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>+ (instancetype)adBreakWithTags:(NSArray *)<em>tags</em> offset:(NSString *)<em>offset</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tags</code></th>
+						<td><p>This option is the array of URLs to the ad <a href="#//api/name/tags">tags</a>, which contains the VAST response.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Offset of the ad.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Initializing Ad Break Object" name="task_Initializing Ad Break Object"></a>
+						<h2 class="task-title">Initializing Ad Break Object</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/initWithTags:offset:" title="initWithTags:offset:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/initWithTags:offset:">&ndash;&nbsp;initWithTags:offset:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>Inits an AdBreak with provided params.</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (instancetype)initWithTags:(NSArray *)<em>tags</em> offset:(NSString *)<em>offset</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tags</code></th>
+						<td><p>This option is the array of URLs to the ad <a href="#//api/name/tags">tags</a>, which contains the VAST response.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>Offset of the ad.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWAdBreak.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4219 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWPlayerDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/onAdClick:">- onAdClick:</option>
+		
+		<option value="//api/name/onAdClick:client:creativeType:">- onAdClick:client:creativeType:</option>
+		
+		<option value="//api/name/onAdCompanions:companions:">- onAdCompanions:companions:</option>
+		
+		<option value="//api/name/onAdComplete:">- onAdComplete:</option>
+		
+		<option value="//api/name/onAdComplete:client:creativeType:">- onAdComplete:client:creativeType:</option>
+		
+		<option value="//api/name/onAdError:">- onAdError:</option>
+		
+		<option value="//api/name/onAdImpression:">- onAdImpression:</option>
+		
+		<option value="//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:">- onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:</option>
+		
+		<option value="//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:">- onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:</option>
+		
+		<option value="//api/name/onAdMeta:">- onAdMeta:</option>
+		
+		<option value="//api/name/onAdPause:">- onAdPause:</option>
+		
+		<option value="//api/name/onAdPause:creativeType:newState:oldState:">- onAdPause:creativeType:newState:oldState:</option>
+		
+		<option value="//api/name/onAdPlay:">- onAdPlay:</option>
+		
+		<option value="//api/name/onAdPlay:creativeType:newState:oldState:">- onAdPlay:creativeType:newState:oldState:</option>
+		
+		<option value="//api/name/onAdRequest:forPosition:">- onAdRequest:forPosition:</option>
+		
+		<option value="//api/name/onAdRequest:forPosition:client:creativeType:">- onAdRequest:forPosition:client:creativeType:</option>
+		
+		<option value="//api/name/onAdSkipped:">- onAdSkipped:</option>
+		
+		<option value="//api/name/onAdSkipped:client:creativeType:">- onAdSkipped:client:creativeType:</option>
+		
+		<option value="//api/name/onAdStarted:creativeType:">- onAdStarted:creativeType:</option>
+		
+		<option value="//api/name/onAdTime:ofDuration:tag:index:">- onAdTime:ofDuration:tag:index:</option>
+		
+		<option value="//api/name/onAdTime:ofDuration:tag:index:client:creativeType:">- onAdTime:ofDuration:tag:index:client:creativeType:</option>
+		
+		<option value="//api/name/onAll">- onAll</option>
+		
+		<option value="//api/name/onAudioTrackChanged:">- onAudioTrackChanged:</option>
+		
+		<option value="//api/name/onAudioTracks:">- onAudioTracks:</option>
+		
+		<option value="//api/name/onBeforeComplete">- onBeforeComplete</option>
+		
+		<option value="//api/name/onBeforePlay">- onBeforePlay</option>
+		
+		<option value="//api/name/onBuffer">- onBuffer</option>
+		
+		<option value="//api/name/onBuffer:reason:">- onBuffer:reason:</option>
+		
+		<option value="//api/name/onBufferChange:">- onBufferChange:</option>
+		
+		<option value="//api/name/onCaptionsChange:">- onCaptionsChange:</option>
+		
+		<option value="//api/name/onCaptionsChanged:">- onCaptionsChanged:</option>
+		
+		<option value="//api/name/onCaptionsList:with:">- onCaptionsList:with:</option>
+		
+		<option value="//api/name/onCloseRelatedOverlay:">- onCloseRelatedOverlay:</option>
+		
+		<option value="//api/name/onComplete">- onComplete</option>
+		
+		<option value="//api/name/onControlBarVisible:">- onControlBarVisible:</option>
+		
+		<option value="//api/name/onControls:">- onControls:</option>
+		
+		<option value="//api/name/onDisplayClick">- onDisplayClick</option>
+		
+		<option value="//api/name/onError:">- onError:</option>
+		
+		<option value="//api/name/onFirstFrame:">- onFirstFrame:</option>
+		
+		<option value="//api/name/onFullscreen:">- onFullscreen:</option>
+		
+		<option value="//api/name/onIdle">- onIdle</option>
+		
+		<option value="//api/name/onIdle:">- onIdle:</option>
+		
+		<option value="//api/name/onLevels:">- onLevels:</option>
+		
+		<option value="//api/name/onLevelsChanged:">- onLevelsChanged:</option>
+		
+		<option value="//api/name/onMeta:">- onMeta:</option>
+		
+		<option value="//api/name/onOpenRelatedOverlay:relatedFile:items:">- onOpenRelatedOverlay:relatedFile:items:</option>
+		
+		<option value="//api/name/onPause">- onPause</option>
+		
+		<option value="//api/name/onPause:">- onPause:</option>
+		
+		<option value="//api/name/onPictureInPicture:">- onPictureInPicture:</option>
+		
+		<option value="//api/name/onPlay">- onPlay</option>
+		
+		<option value="//api/name/onPlay:">- onPlay:</option>
+		
+		<option value="//api/name/onPlayAttempt">- onPlayAttempt</option>
+		
+		<option value="//api/name/onPlaylist:">- onPlaylist:</option>
+		
+		<option value="//api/name/onPlaylistComplete">- onPlaylistComplete</option>
+		
+		<option value="//api/name/onPlaylistItem:">- onPlaylistItem:</option>
+		
+		<option value="//api/name/onQualityChange:">- onQualityChange:</option>
+		
+		<option value="//api/name/onQualityLevels:">- onQualityLevels:</option>
+		
+		<option value="//api/name/onReady">- onReady</option>
+		
+		<option value="//api/name/onReady:">- onReady:</option>
+		
+		<option value="//api/name/onRelatedPlay:auto:position:">- onRelatedPlay:auto:position:</option>
+		
+		<option value="//api/name/onResize:">- onResize:</option>
+		
+		<option value="//api/name/onSeek:fromPosition:">- onSeek:fromPosition:</option>
+		
+		<option value="//api/name/onSeeked">- onSeeked</option>
+		
+		<option value="//api/name/onSetupError:">- onSetupError:</option>
+		
+		<option value="//api/name/onTime:ofDuration:">- onTime:ofDuration:</option>
+		
+		<option value="//api/name/onVisualQuality:reason:label:">- onVisualQuality:reason:label:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWPlayerDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWPlayerDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@protocol JWPlayerDelegate</p><p>The JWPlayerDelegate protocol defines methods that a delegate of a <a href="../Classes/JWPlayerController.html">JWPlayerController</a> object can optionally implement to intervene when player callbacks are captured.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						<h2 class="task-title">Other Methods</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onAll" title="onAll"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAll">&ndash;&nbsp;onAll</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAll(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAll</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>This singular API call can be used to gather all information from the player&rsquo;s API. Note: This will output a large amount of information and may degrade performance if it is used for an extended period of time.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Playback" name="task_Playback"></a>
+						<h2 class="task-title">Playback</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onPlayAttempt" title="onPlayAttempt"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlayAttempt">&ndash;&nbsp;onPlayAttempt</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPlayAttempt(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlayAttempt</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Useful for QOE tracking - Triggered the instant a user attempts to play a file. This event fires before both the <a href="#//api/name/onPlay">onPlay</a> and <a href="#//api/name/onBeforePlay">onBeforePlay</a> events.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onBeforePlay" title="onBeforePlay"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onBeforePlay">&ndash;&nbsp;onBeforePlay</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onBeforePlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onBeforePlay</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired just before the player begins playing. Unlike the <a href="#//api/name/onPlay">onPlay</a> event, the player will not have begun playing or buffering when triggered, which makes this the right moment to insert preroll ads using playAd().</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onFirstFrame:" title="onFirstFrame:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onFirstFrame:">&ndash;&nbsp;onFirstFrame:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onFirstFrame(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onFirstFrame:(NSInteger)<em>loadTime</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>loadTime</code></th>
+						<td><p>The amount of time (In milliseconds) it takes for the player to transition from a playAttempt to a firstFrame event. Use this to determine the period of time between a user pressing play and the same user viewing their content.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Useful for QOE tracking - Triggered by a video&rsquo;s first frame event (Or the instant an audio file begins playback). This event pinpoints when content playback begins.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPlay" title="onPlay"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlay">&ndash;&nbsp;onPlay</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlay</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;playing&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPlay:" title="onPlay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlay:">&ndash;&nbsp;onPlay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onPlay">onPlay</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlay:(NSString *)<em>oldState</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;playing&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPause" title="onPause"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPause">&ndash;&nbsp;onPause</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPause(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPause</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;paused&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPause:" title="onPause:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPause:">&ndash;&nbsp;onPause:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onPause">onPause</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPause:(NSString *)<em>oldState</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;paused&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onIdle" title="onIdle"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onIdle">&ndash;&nbsp;onIdle</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onIdle(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onIdle</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;idle&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onIdle:" title="onIdle:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onIdle:">&ndash;&nbsp;onIdle:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onIdle">onIdle</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onIdle:(NSString *)<em>oldState</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;idle&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onReady" title="onReady"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onReady">&ndash;&nbsp;onReady</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onReady(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onReady</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player has initialized in either Flash or HTML5 and is ready for playback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onReady:" title="onReady:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onReady:">&ndash;&nbsp;onReady:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onReady">onReady</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onReady:(NSInteger)<em>setupTime</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player has initialized in either Flash or HTML5 and is ready for playback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onBeforeComplete" title="onBeforeComplete"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onBeforeComplete">&ndash;&nbsp;onBeforeComplete</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onBeforeComplete(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onBeforeComplete</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired just before the player completes playing. Unlike the <a href="#//api/name/onComplete">onComplete</a> event, the player will not have moved on to either showing the replay screen or advancing to the next playlistItem, which makes this the right moment to insert post-roll ads using playAd().</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onComplete" title="onComplete"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onComplete">&ndash;&nbsp;onComplete</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onComplete(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onComplete</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when an item completes playback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Buffer" name="task_Buffer"></a>
+						<h2 class="task-title">Buffer</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onBuffer" title="onBuffer"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onBuffer">&ndash;&nbsp;onBuffer</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onBuffer(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onBuffer</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;buffering&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onBuffer:reason:" title="onBuffer:reason:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onBuffer:reason:">&ndash;&nbsp;onBuffer:reason:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onBuffer">onBuffer</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onBuffer:(NSString *)<em>oldState</em> reason:(NSString *)<em>reason</em></code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters the &lsquo;buffering&rsquo; state.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onBufferChange:" title="onBufferChange:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onBufferChange:">&ndash;&nbsp;onBufferChange:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p><a href="#//api/name/onBuffer">onBuffer</a>(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onBufferChange:(double)<em>buffer</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>buffer</code></th>
+						<td><p>Percentage between 0 and 100 of the current media that is buffered.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the currently playing item loads additional data into its buffer.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Playback Position" name="task_Playback Position"></a>
+						<h2 class="task-title">Playback Position</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onTime:ofDuration:" title="onTime:ofDuration:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onTime:ofDuration:">&ndash;&nbsp;onTime:ofDuration:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onTime(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onTime:(double)<em>position</em> ofDuration:(double)<em>duration</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>Playback position in seconds.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>duration</code></th>
+						<td><p>Duration of the current item in seconds.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>While the player is playing, this event is fired as the playback position gets updated. This may occur as frequently as 10 times per second.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onSeek:fromPosition:" title="onSeek:fromPosition:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onSeek:fromPosition:">&ndash;&nbsp;onSeek:fromPosition:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onSeek(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onSeek:(double)<em>offset</em> fromPosition:(double)<em>position</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>offset</code></th>
+						<td><p>The user requested position to seek to (in seconds). Note the actual position the player will eventually seek to may differ.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>The position of the player before the player seeks (in seconds).</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired after a seek has been requested either by scrubbing the controlbar or through the API.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onSeeked" title="onSeeked"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onSeeked">&ndash;&nbsp;onSeeked</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onSeeked(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onSeeked</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Triggered when content playback resumes after seeking. As opposed to onSeek, this API listener will only trigger when playback actually continues.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Metadata" name="task_Metadata"></a>
+						<h2 class="task-title">Metadata</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onMeta:" title="onMeta:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onMeta:">&ndash;&nbsp;onMeta:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onMeta(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onMeta:(NSDictionary *)<em>metaData</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metaData</code></th>
+						<td><p>Object containing the new metadata. This can be metadata hidden in the media (ID3, XMP, keyframes) or metadata broadcasted by the playback provider (bandwidth, quality switches).</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when new metadata has been broadcasted by the player.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Caption" name="task_Caption"></a>
+						<h2 class="task-title">Caption</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onCaptionsList:with:" title="onCaptionsList:with:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCaptionsList:with:">&ndash;&nbsp;onCaptionsList:with:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCaptionsList(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCaptionsList:(NSArray *)<em>tracks</em> with:(NSInteger)<em>selectedTrack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tracks</code></th>
+						<td><p>The full array of caption tracks.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selectedTrack</code></th>
+						<td><p>The currently selected caption track.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the list of available captions tracks is updated. Happens shortly after a playlist item starts playing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCaptionsChanged:" title="onCaptionsChanged:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCaptionsChanged:">&ndash;&nbsp;onCaptionsChanged:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCaptionsChanged (callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCaptionsChanged:(NSInteger)<em>selectedTrack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selectedTrack</code></th>
+						<td><p>Index of the new active captions track in the tracks array. Note the captions are Off if the selectedTrack is 0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active captions track is changed. Happens in response to e.g. a user clicking the controlbar CC menu or a script calling setCurrentCaptions.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCaptionsChange:" title="onCaptionsChange:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCaptionsChange:">&ndash;&nbsp;onCaptionsChange:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCaptionsChange (callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCaptionsChange:(NSInteger)<em>selectedTrack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>selectedTrack</code></th>
+						<td><p>Index of the new active captions track in the tracks array. Note the captions are Off if the selectedTrack is 0.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active captions track is changed. Happens in response to e.g. a user clicking the controlbar CC menu or a script calling setCurrentCaptions.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Quality" name="task_Quality"></a>
+						<h2 class="task-title">Quality</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onLevels:" title="onLevels:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onLevels:">&ndash;&nbsp;onLevels:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onLevels(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onLevels:(NSArray *)<em>levels</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>levels</code></th>
+						<td><p>The full array of quality levels.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the list of available quality levels is updated. Happens e.g. shortly after a playlist item starts playing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onQualityLevels:" title="onQualityLevels:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onQualityLevels:">&ndash;&nbsp;onQualityLevels:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onQualityLevels(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onQualityLevels:(NSArray *)<em>levels</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>levels</code></th>
+						<td><p>The full array of quality levels.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the list of available quality levels is updated. Happens e.g. shortly after a playlist item starts playing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onLevelsChanged:" title="onLevelsChanged:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onLevelsChanged:">&ndash;&nbsp;onLevelsChanged:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onLevelsChanged(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onLevelsChanged:(NSInteger)<em>currentLevel</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currentLevel</code></th>
+						<td><p>Index of the new quality level in the getQualityLevels() array.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active quality level is changed. Happens in response to e.g. a user clicking the controlbar quality menu or a script calling setCurrentLevel.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onQualityChange:" title="onQualityChange:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onQualityChange:">&ndash;&nbsp;onQualityChange:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onQualityChange(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onQualityChange:(NSInteger)<em>currentQuality</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currentQuality</code></th>
+						<td><p>Index of the new quality level in the getQualityLevels() array.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active quality level is changed. Happens in response to e.g. a user clicking the controlbar quality menu or a script calling setCurrentQuality.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onVisualQuality:reason:label:" title="onVisualQuality:reason:label:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onVisualQuality:reason:label:">&ndash;&nbsp;onVisualQuality:reason:label:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onVisualQuality(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onVisualQuality:(NSString *)<em>mode</em> reason:(NSString *)<em>reason</em> label:(NSString *)<em>label</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mode</code></th>
+						<td><p>The type of quality selection that has been enabled with the player. This will read auto when a user is relying on our automatic quality determination or manual when a user has selected a static quality.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>reason</code></th>
+						<td><p>Why the quality was changed. This can be initial choice.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>label</code></th>
+						<td><p>Information about the quality that was changed. This will display your label, bitrate, index, and resolution.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active quality level is changed for HLS. This is different than onLevelsChanged since this will trigger when adaptive streaming automatically shifts quality. In addition, this will also provide reasons why this change happened, as well as information about how and why this change was triggered.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Audio Track" name="task_Audio Track"></a>
+						<h2 class="task-title">Audio Track</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onAudioTracks:" title="onAudioTracks:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAudioTracks:">&ndash;&nbsp;onAudioTracks:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAudioTracks (callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAudioTracks:(NSArray *)<em>audioTracks</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>audioTracks</code></th>
+						<td><p>The full array with audio tracks.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the list of available audio tracks is updated. Happens e.g. shortly after a playlist item starts playing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAudioTrackChanged:" title="onAudioTrackChanged:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAudioTrackChanged:">&ndash;&nbsp;onAudioTrackChanged:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAudioTrackChanged (callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAudioTrackChanged:(NSInteger)<em>currentAudioTrack</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>currentAudioTrack</code></th>
+						<td><p>Index of the newly selected audio track in the JWPlayerController&rsquo;s audioTracks property.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the active audio track is changed. Happens in repsponse to e.g. a user clicking the audio tracks menu or setting the currentAudioTrack <a href="../Classes/JWPlayerController.html">JWPlayerController</a> property.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Playlist" name="task_Playlist"></a>
+						<h2 class="task-title">Playlist</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onPlaylist:" title="onPlaylist:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlaylist:">&ndash;&nbsp;onPlaylist:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPlaylist(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlaylist:(NSArray *)<em>playlist</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>playlist</code></th>
+						<td><p>The new playlist; an array of playlist items.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when a new playlist has been loaded into the player. Note this event is not fired as part of the initial playlist load (playlist is loaded when <a href="#//api/name/onReady">onReady</a> is called).</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPlaylistItem:" title="onPlaylistItem:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlaylistItem:">&ndash;&nbsp;onPlaylistItem:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPlaylistItem(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlaylistItem:(NSInteger)<em>index</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>index</code></th>
+						<td><p>Zero-based index into the playlist array (e.g. 0 is the first item).</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the playlist index changes to a new playlist item. This event occurs before the player begins playing the new playlist item.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPlaylistComplete" title="onPlaylistComplete"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPlaylistComplete">&ndash;&nbsp;onPlaylistComplete</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPlaylistComplete(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPlaylistComplete</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player is done playing all items in the playlist. However, if the repeat option is set true, this is never fired.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Resize" name="task_Resize"></a>
+						<h2 class="task-title">Resize</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onFullscreen:" title="onFullscreen:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onFullscreen:">&ndash;&nbsp;onFullscreen:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onFullscreen</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onFullscreen:(BOOL)<em>status</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p>Whether or not video is in fullscreen mode.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player toggles to/from fullscreen.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onResize:" title="onResize:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onResize:">&ndash;&nbsp;onResize:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onResize</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onResize:(CGSize)<em>size</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>size</code></th>
+						<td><p>The new dimensions of the player.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player&rsquo;s size changes.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onPictureInPicture:" title="onPictureInPicture:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onPictureInPicture:">&ndash;&nbsp;onPictureInPicture:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onPictureInPicture</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onPictureInPicture:(BOOL)<em>status</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p>Whether or not player is displayed in Picture in Picture.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when the player enters/exits picture in picture mode. Picture in Picture is only available on iPad Pro, iPad Air (or later), and iPad mini 2 (or later) running iOS 9.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Controls" name="task_Controls"></a>
+						<h2 class="task-title">Controls</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onControls:" title="onControls:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onControls:">&ndash;&nbsp;onControls:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onControls</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onControls:(BOOL)<em>status</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>status</code></th>
+						<td><p>New state of the controls. Is true when the controls were just enabled.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when controls are enabled or disabled by setting the <a href="../Classes/JWPlayerController.html">JWPlayerController</a> controls property to a boolean.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onDisplayClick" title="onDisplayClick"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onDisplayClick">&ndash;&nbsp;onDisplayClick</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onDisplayClick(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onDisplayClick</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when a user clicks the video display. Especially useful for wiring your own controls when the built-in ones are disabled. Note the default click action (toggling play/pause) will still occur if controls are enabled.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onControlBarVisible:" title="onControlBarVisible:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onControlBarVisible:">&ndash;&nbsp;onControlBarVisible:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onControlBarVisible</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onControlBarVisible:(BOOL)<em>isVisible</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>isVisible</code></th>
+						<td><p>Current control bar visibility status.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when player control bar appears/disappears. Would not be called if controls set to false.</p><p>Especially useful for synchronizing custom controls visibility with player control bar.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Advertising" name="task_Advertising"></a>
+						<h2 class="task-title">Advertising</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onAdRequest:forPosition:" title="onAdRequest:forPosition:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdRequest:forPosition:">&ndash;&nbsp;onAdRequest:forPosition:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdRequest(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdRequest:(NSString *)<em>tag</em> forPosition:(NSString *)<em>adPosition</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is being requested.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adPosition</code></th>
+						<td><p>Whether an ad is in a pre, mid, or post position.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad is requested by the player.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdRequest:forPosition:client:creativeType:" title="onAdRequest:forPosition:client:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdRequest:forPosition:client:creativeType:">&ndash;&nbsp;onAdRequest:forPosition:client:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdRequest(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdRequest:(NSString *)<em>tag</em> forPosition:(NSString *)<em>adPosition</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is being requested.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adPosition</code></th>
+						<td><p>Whether an ad is in a pre, mid, or post position.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that is currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played, linear or nonlinear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad is requested by the player.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdSkipped:" title="onAdSkipped:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdSkipped:">&ndash;&nbsp;onAdSkipped:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdSkipped(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdSkipped:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that was skipped.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad has been skipped.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdSkipped:client:creativeType:" title="onAdSkipped:client:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdSkipped:client:creativeType:">&ndash;&nbsp;onAdSkipped:client:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdSkipped(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdSkipped:(NSString *)<em>tag</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that was skipped.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that is currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played, linear or nonlinear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad has been skipped.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdComplete:" title="onAdComplete:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdComplete:">&ndash;&nbsp;onAdComplete:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdComplete(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdComplete:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad has completed playback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdComplete:client:creativeType:" title="onAdComplete:client:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdComplete:client:creativeType:">&ndash;&nbsp;onAdComplete:client:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdComplete(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdComplete:(NSString *)<em>tag</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that is currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played, linear or nonlinear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad has completed playback.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdClick:" title="onAdClick:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdClick:">&ndash;&nbsp;onAdClick:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdClick(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdClick:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever a user clicks an ad to be redirected to its landing page.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdClick:client:creativeType:" title="onAdClick:client:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdClick:client:creativeType:">&ndash;&nbsp;onAdClick:client:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdClick(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdClick:(NSString *)<em>tag</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that is currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played, linear or nonlinear.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever a user clicks an ad to be redirected to its landing page.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdCompanions:companions:" title="onAdCompanions:companions:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdCompanions:companions:">&ndash;&nbsp;onAdCompanions:companions:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdCompanions(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdCompanions:(NSString *)<em>tag</em> companions:(NSArray&lt;JWAdCompanion*&gt; *)<em>companions</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>companions</code></th>
+						<td><p>An array with available companion information.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST only. Fired whenever an ad contains companions.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdImpression:" title="onAdImpression:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdImpression:">&ndash;&nbsp;onAdImpression:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdImpression(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdImpression:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad starts playing back. At this point, the VAST tag is loaded and the creative selected.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:" title="onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:">&ndash;&nbsp;onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdImpression(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdImpression:(NSString *)<em>tag</em> adPosition:(NSString *)<em>position</em> adSystem:(NSString *)<em>adSystem</em> adTitle:(NSString *)<em>adTitle</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em> vastVersion:(double)<em>vastVersion</em> wrapper:(NSArray *)<em>wrapper</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adSystem</code></th>
+						<td><p>AdSystem referenced inside of the VAST XML.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adTitle</code></th>
+						<td><p>AdTitle referenced inside of the VAST XML.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that&rsquo;s currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adPosition</code></th>
+						<td><p>An ad&rsquo;s position.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad starts playing back. At this point, the VAST tag is loaded and the creative selected.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:" title="onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:">&ndash;&nbsp;onAdImpression:adPosition:adSystem:adTitle:client:creativeType:vastVersion:wrapper:mediaFile:linear:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdImpression(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdImpression:(NSString *)<em>tag</em> adPosition:(NSString *)<em>position</em> adSystem:(NSString *)<em>adSystem</em> adTitle:(NSString *)<em>adTitle</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em> vastVersion:(double)<em>vastVersion</em> wrapper:(NSArray *)<em>wrapper</em> mediaFile:(NSString *)<em>mediaFile</em> linear:(BOOL)<em>linear</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adSystem</code></th>
+						<td><p>AdSystem referenced inside of the VAST XML.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adTitle</code></th>
+						<td><p>AdTitle referenced inside of the VAST XML.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>client</code></th>
+						<td><p>The client that&rsquo;s currently being used, vast or googima.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>mediaFile</code></th>
+						<td><p>the currently playing media item.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>linear</code></th>
+						<td><p>Wether the ad is linear or nonlinear.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>adPosition</code></th>
+						<td><p>An ad&rsquo;s position.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad starts playing back. At this point, the VAST tag is loaded and the creative selected.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdPlay:" title="onAdPlay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdPlay:">&ndash;&nbsp;onAdPlay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdPlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdPlay:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad starts playing. Will fire after an ad is unpaused.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdPlay:creativeType:newState:oldState:" title="onAdPlay:creativeType:newState:oldState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdPlay:creativeType:newState:oldState:">&ndash;&nbsp;onAdPlay:creativeType:newState:oldState:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdPlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdPlay:(NSString *)<em>tag</em> creativeType:(NSString *)<em>creativeType</em> newState:(NSString *)<em>newState</em> oldState:(NSString *)<em>oldState</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newState</code></th>
+						<td><p>The new state of the player.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>oldState</code></th>
+						<td><p>the old state of the player.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad starts playing. Will fire after an ad is unpaused.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdPause:" title="onAdPause:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdPause:">&ndash;&nbsp;onAdPause:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdPause(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdPause:(NSString *)<em>tag</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad is paused.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdPause:creativeType:newState:oldState:" title="onAdPause:creativeType:newState:oldState:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdPause:creativeType:newState:oldState:">&ndash;&nbsp;onAdPause:creativeType:newState:oldState:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdPause(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdPause:(NSString *)<em>tag</em> creativeType:(NSString *)<em>creativeType</em> newState:(NSString *)<em>newState</em> oldState:(NSString *)<em>oldState</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of ad that is being played.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>newState</code></th>
+						<td><p>The new state of the player.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>oldState</code></th>
+						<td><p>the old state of the player.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an ad is paused.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdTime:ofDuration:tag:index:" title="onAdTime:ofDuration:tag:index:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdTime:ofDuration:tag:index:">&ndash;&nbsp;onAdTime:ofDuration:tag:index:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdTime(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdTime:(double)<em>position</em> ofDuration:(double)<em>duration</em> tag:(NSString *)<em>tag</em> index:(NSInteger)<em>sequence</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>The current playback position in the ad creative.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>duration</code></th>
+						<td><p>The total duration of the ad creative.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sequence</code></th>
+						<td><p>Returns the sequence number the ad is a part of.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired while ad playback is in progress.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdTime:ofDuration:tag:index:client:creativeType:" title="onAdTime:ofDuration:tag:index:client:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdTime:ofDuration:tag:index:client:creativeType:">&ndash;&nbsp;onAdTime:ofDuration:tag:index:client:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdTime(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdTime:(double)<em>position</em> ofDuration:(double)<em>duration</em> tag:(NSString *)<em>tag</em> index:(NSInteger)<em>sequence</em> client:(JWAdClient)<em>client</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>The current playback position in the ad creative.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>duration</code></th>
+						<td><p>The total duration of the ad creative.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The ad tag that is currently playing.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>sequence</code></th>
+						<td><p>Returns the sequence number the ad is a part of.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired while ad playback is in progress.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdError:" title="onAdError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdError:">&ndash;&nbsp;onAdError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdError(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message under property localizedDescription. The following error messages are possible:
+-invalid ad tag (e.g. invalid XML, broken VAST)
+-ad tag empty (e.g. no ad available after chasing the wrappers)
+-no compatible creatives (e.g. only FLV video in HTML5)
+-error playing creative (e.g. a 404 on the MP4 video)
+-error loading ad tag (for all else)
+When applicable, the userInfo (NSDictionary) property of error will contain the ad tag that is currently playing (key: tag), and/or the vmap (key: vmap). If Google IMA is being used as the ad Client, the imaErrorType will be included (key: imaErrorType) and not the vmap.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VAST and IMA. Fired whenever an error prevents the ad from playing.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdStarted:creativeType:" title="onAdStarted:creativeType:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdStarted:creativeType:">&ndash;&nbsp;onAdStarted:creativeType:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdStarted(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdStarted:(NSString *)<em>tag</em> creativeType:(NSString *)<em>creativeType</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>tag</code></th>
+						<td><p>The URL of the ad tag that was started.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>creativeType</code></th>
+						<td><p>The type of VPAID ad that is being played.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>VPAID-only. Will trigger when a VPAID ad creative signals to our player that it is starting. This differs from adImpression since the advertisement may not yet be visible.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onAdMeta:" title="onAdMeta:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onAdMeta:">&ndash;&nbsp;onAdMeta:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onAdMeta(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onAdMeta:(NSDictionary *)<em>metaData</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>metaData</code></th>
+						<td><p>Object containing the new metadata. This can be metadata hidden in the media (ID3, XMP, keyframes) or metadata broadcasted by the playback provider (bandwidth, quality switches).</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when new metadata has been broadcasted by the player during an Ad.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Related" name="task_Related"></a>
+						<h2 class="task-title">Related</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onOpenRelatedOverlay:relatedFile:items:" title="onOpenRelatedOverlay:relatedFile:items:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onOpenRelatedOverlay:relatedFile:items:">&ndash;&nbsp;onOpenRelatedOverlay:relatedFile:items:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onOpenRelatedOverlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onOpenRelatedOverlay:(JWRelatedOpenMethod)<em>method</em> relatedFile:(NSString *)<em>relatedFile</em> items:(NSArray&lt;JWPlaylistItem*&gt; *)<em>items</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>method</code></th>
+						<td><p>The method used to open the overlay. (api, complete, or interaction)</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>relatedFile</code></th>
+						<td><p>The URL of the feed that was loaded into the player.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>items</code></th>
+						<td><p>An object of all objects that have been loaded into the related plugin.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Triggers when the related overlay is opened.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCloseRelatedOverlay:" title="onCloseRelatedOverlay:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCloseRelatedOverlay:">&ndash;&nbsp;onCloseRelatedOverlay:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCloseRelatedOverlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCloseRelatedOverlay:(NSString *)<em>method</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>method</code></th>
+						<td><p>The method used to close the overlay. (api, complete, or click)</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Triggers when the related overlay is closed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onRelatedPlay:auto:position:" title="onRelatedPlay:auto:position:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onRelatedPlay:auto:position:">&ndash;&nbsp;onRelatedPlay:auto:position:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onRelatedPlay(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onRelatedPlay:(JWPlaylistItem *)<em>item</em> auto:(BOOL)<em>autoplay</em> position:(NSInteger)<em>position</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>item</code></th>
+						<td><p>Metadata for the chosen item specified in the feed.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>position</code></th>
+						<td><p>Ordinal position of the related video that has been chosen.</p></td>
+					</tr>
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>auto</code></th>
+						<td><p>Returns true if started via autoplay; false if manually started.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Triggers when a user selects an object in a related feed.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+
+						<a title="Error" name="task_Error"></a>
+						<h2 class="task-title">Error</h2>
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onError:" title="onError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onError:">&ndash;&nbsp;onError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onError(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the reason for the error in property localizedDescription. See &ldquo;Common error messages&rdquo; on <a href="http://support.jwplayer.com/customer/portal/articles/1403682-troubleshooting-your-setup">http://support.jwplayer.com/customer/portal/articles/1403682-troubleshooting-your-setup</a> for a list of possible media errors.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when a media error has occurred, causing the player to stop playback and go into &lsquo;idle&rsquo; mode.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onSetupError:" title="onSetupError:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onSetupError:">&ndash;&nbsp;onSetupError:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onSetupError(callback)</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onSetupError:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message that describes why the player could not be setup. Error message can be accessed in property localizedDescription.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Fired when neither the Flash nor HTML5 player could be setup.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWPlayerDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

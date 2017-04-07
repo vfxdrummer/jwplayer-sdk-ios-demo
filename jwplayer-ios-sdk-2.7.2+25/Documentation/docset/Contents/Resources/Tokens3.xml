@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWAdConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWAdConfig</TokenIdentifier>
+			<Abstract type="html">An object providing information about the way ads are handled by the player. Describes adMessage, skipMessage, skipText and skipOffset.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setAdMessage:</TokenIdentifier>
+			<Abstract type="html">A message to be shown to the user in place of a seekbar while the ad is playing.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adMessage</Declaration>
+			
+			
+			<Anchor>//api/name/adMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/adMessage</TokenIdentifier>
+			<Abstract type="html">A message to be shown to the user in place of a seekbar while the ad is playing.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adMessage</Declaration>
+			
+			
+			<Anchor>//api/name/adMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/adMessage</TokenIdentifier>
+			<Abstract type="html">A message to be shown to the user in place of a seekbar while the ad is playing.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adMessage</Declaration>
+			
+			
+			<Anchor>//api/name/adMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setSkipMessage:</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button during countdown to skip availablilty.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipText</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSString *skipMessage</Declaration>
+			
+			
+			<Anchor>//api/name/skipMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/skipMessage</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button during countdown to skip availablilty.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipText</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSString *skipMessage</Declaration>
+			
+			
+			<Anchor>//api/name/skipMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipMessage</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button during countdown to skip availablilty.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipText</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSString *skipMessage</Declaration>
+			
+			
+			<Anchor>//api/name/skipMessage</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setSkipText:</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button when the skip option becomes avilable.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *skipText</Declaration>
+			
+			
+			<Anchor>//api/name/skipText</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/skipText</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button when the skip option becomes avilable.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *skipText</Declaration>
+			
+			
+			<Anchor>//api/name/skipText</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipText</TokenIdentifier>
+			<Abstract type="html">A message to be shown on the skip button when the skip option becomes avilable.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *skipText</Declaration>
+			
+			
+			<Anchor>//api/name/skipText</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setSkipOffset:</TokenIdentifier>
+			<Abstract type="html">An integer representing the number of seconds before the ad can be skept.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger skipOffset</Declaration>
+			
+			
+			<Anchor>//api/name/skipOffset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/skipOffset</TokenIdentifier>
+			<Abstract type="html">An integer representing the number of seconds before the ad can be skept.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger skipOffset</Declaration>
+			
+			
+			<Anchor>//api/name/skipOffset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/skipOffset</TokenIdentifier>
+			<Abstract type="html">An integer representing the number of seconds before the ad can be skept.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger skipOffset</Declaration>
+			
+			
+			<Anchor>//api/name/skipOffset</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setAdClient:</TokenIdentifier>
+			<Abstract type="html">Set to googima if you wish to use google IMA; set to vastPlugin if not. Setting to nil defaults to vastPlugin.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWAdClient adClient</Declaration>
+			
+			
+			<Anchor>//api/name/adClient</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/adClient</TokenIdentifier>
+			<Abstract type="html">Set to googima if you wish to use google IMA; set to vastPlugin if not. Setting to nil defaults to vastPlugin.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWAdClient adClient</Declaration>
+			
+			
+			<Anchor>//api/name/adClient</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/adClient</TokenIdentifier>
+			<Abstract type="html">Set to googima if you wish to use google IMA; set to vastPlugin if not. Setting to nil defaults to vastPlugin.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWAdClient adClient</Declaration>
+			
+			
+			<Anchor>//api/name/adClient</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/setImaSettings:</TokenIdentifier>
+			<Abstract type="html">The IMASettings class stores the Google IMA SDK settings.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) IMASettings *imaSettings</Declaration>
+			
+			
+			<Anchor>//api/name/imaSettings</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdConfig/imaSettings</TokenIdentifier>
+			<Abstract type="html">The IMASettings class stores the Google IMA SDK settings.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) IMASettings *imaSettings</Declaration>
+			
+			
+			<Anchor>//api/name/imaSettings</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdConfig/imaSettings</TokenIdentifier>
+			<Abstract type="html">The IMASettings class stores the Google IMA SDK settings.</Abstract>
+			<DeclaredIn>JWAdConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) IMASettings *imaSettings</Declaration>
+			
+			
+			<Anchor>//api/name/imaSettings</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

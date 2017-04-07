@@ -1,0 +1,970 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWConfig</TokenIdentifier>
+			<Abstract type="html">Configuration object used to create JW Player instance.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+            
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setCaptionStyling:</TokenIdentifier>
+			<Abstract type="html">Configuration object used to customize the captions.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) JWCaptionStyling *captionStyling</Declaration>
+			
+			
+			<Anchor>//api/name/captionStyling</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/captionStyling</TokenIdentifier>
+			<Abstract type="html">Configuration object used to customize the captions.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) JWCaptionStyling *captionStyling</Declaration>
+			
+			
+			<Anchor>//api/name/captionStyling</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/captionStyling</TokenIdentifier>
+			<Abstract type="html">Configuration object used to customize the captions.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) JWCaptionStyling *captionStyling</Declaration>
+			
+			
+			<Anchor>//api/name/captionStyling</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setFile:</TokenIdentifier>
+			<Abstract type="html">Video URL to play using JW Player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/file</TokenIdentifier>
+			<Abstract type="html">Video URL to play using JW Player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/file</TokenIdentifier>
+			<Abstract type="html">Video URL to play using JW Player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setSources:</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/sources</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/sources</TokenIdentifier>
+			<Abstract type="html">An array of JWSource objects representing multiple quality levels of a video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *sources</Declaration>
+			
+			
+			<Anchor>//api/name/sources</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setPlaylist:</TokenIdentifier>
+			<Abstract type="html">An array of JWPlaylistItem objects containing information about different video items to be reproduced in a sequence.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWPlaylistItem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *playlist</Declaration>
+			
+			
+			<Anchor>//api/name/playlist</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/playlist</TokenIdentifier>
+			<Abstract type="html">An array of JWPlaylistItem objects containing information about different video items to be reproduced in a sequence.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWPlaylistItem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *playlist</Declaration>
+			
+			
+			<Anchor>//api/name/playlist</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/playlist</TokenIdentifier>
+			<Abstract type="html">An array of JWPlaylistItem objects containing information about different video items to be reproduced in a sequence.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWPlaylistItem</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *playlist</Declaration>
+			
+			
+			<Anchor>//api/name/playlist</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setTitle:</TokenIdentifier>
+			<Abstract type="html">Title of the video</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/title</TokenIdentifier>
+			<Abstract type="html">Title of the video</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/title</TokenIdentifier>
+			<Abstract type="html">Title of the video</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *title</Declaration>
+			
+			
+			<Anchor>//api/name/title</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setImage:</TokenIdentifier>
+			<Abstract type="html">The URL of the thumbnail image.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/image</TokenIdentifier>
+			<Abstract type="html">The URL of the thumbnail image.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/image</TokenIdentifier>
+			<Abstract type="html">The URL of the thumbnail image.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setAssetOptions:</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/assetOptions</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/assetOptions</TokenIdentifier>
+			<Abstract type="html">A dictionary containing asset initialization options.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSDictionary *assetOptions</Declaration>
+			
+			
+			<Anchor>//api/name/assetOptions</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setOfflinePoster:</TokenIdentifier>
+			<Abstract type="html">The image you wish to display if the user gets disconnected from the internet. If this is nil, your thumbnail image will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *offlinePoster</Declaration>
+			
+			
+			<Anchor>//api/name/offlinePoster</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/offlinePoster</TokenIdentifier>
+			<Abstract type="html">The image you wish to display if the user gets disconnected from the internet. If this is nil, your thumbnail image will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *offlinePoster</Declaration>
+			
+			
+			<Anchor>//api/name/offlinePoster</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/offlinePoster</TokenIdentifier>
+			<Abstract type="html">The image you wish to display if the user gets disconnected from the internet. If this is nil, your thumbnail image will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) UIImage *offlinePoster</Declaration>
+			
+			
+			<Anchor>//api/name/offlinePoster</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setOfflineMessage:</TokenIdentifier>
+			<Abstract type="html">The message you wish to display if the user gets disconnected from the internet. If this is nil, &quot;Internet Lost&quot; will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offlineMessage</Declaration>
+			
+			
+			<Anchor>//api/name/offlineMessage</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/offlineMessage</TokenIdentifier>
+			<Abstract type="html">The message you wish to display if the user gets disconnected from the internet. If this is nil, &quot;Internet Lost&quot; will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offlineMessage</Declaration>
+			
+			
+			<Anchor>//api/name/offlineMessage</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/offlineMessage</TokenIdentifier>
+			<Abstract type="html">The message you wish to display if the user gets disconnected from the internet. If this is nil, &quot;Internet Lost&quot; will be displayed.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offlineMessage</Declaration>
+			
+			
+			<Anchor>//api/name/offlineMessage</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setSize:</TokenIdentifier>
+			<Abstract type="html">Player view size.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/size</TokenIdentifier>
+			<Abstract type="html">Player view size.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/size</TokenIdentifier>
+			<Abstract type="html">Player view size.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGSize size</Declaration>
+			
+			
+			<Anchor>//api/name/size</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setAdConfig:</TokenIdentifier>
+			<Abstract type="html">adConfig object providing info about ad handling.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) JWAdConfig *adConfig</Declaration>
+			
+			
+			<Anchor>//api/name/adConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/adConfig</TokenIdentifier>
+			<Abstract type="html">adConfig object providing info about ad handling.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) JWAdConfig *adConfig</Declaration>
+			
+			
+			<Anchor>//api/name/adConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/adConfig</TokenIdentifier>
+			<Abstract type="html">adConfig object providing info about ad handling.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) JWAdConfig *adConfig</Declaration>
+			
+			
+			<Anchor>//api/name/adConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setRelatedConfig:</TokenIdentifier>
+			<Abstract type="html">Config object containing related settings.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWRelatedConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) JWRelatedConfig *relatedConfig</Declaration>
+			
+			
+			<Anchor>//api/name/relatedConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/relatedConfig</TokenIdentifier>
+			<Abstract type="html">Config object containing related settings.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWRelatedConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) JWRelatedConfig *relatedConfig</Declaration>
+			
+			
+			<Anchor>//api/name/relatedConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/relatedConfig</TokenIdentifier>
+			<Abstract type="html">Config object containing related settings.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWRelatedConfig</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) JWRelatedConfig *relatedConfig</Declaration>
+			
+			
+			<Anchor>//api/name/relatedConfig</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setControls:</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether player controls are shown.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/controls</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether player controls are shown.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/controls</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether player controls are shown.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setRepeat:</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should repeat after it&apos;s done playing.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL repeat</Declaration>
+			
+			
+			<Anchor>//api/name/repeat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/repeat</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should repeat after it&apos;s done playing.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL repeat</Declaration>
+			
+			
+			<Anchor>//api/name/repeat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/repeat</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should repeat after it&apos;s done playing.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL repeat</Declaration>
+			
+			
+			<Anchor>//api/name/repeat</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setAutostart:</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should start automatically after loading.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL autostart</Declaration>
+			
+			
+			<Anchor>//api/name/autostart</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/autostart</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should start automatically after loading.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL autostart</Declaration>
+			
+			
+			<Anchor>//api/name/autostart</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/autostart</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether video should start automatically after loading.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL autostart</Declaration>
+			
+			
+			<Anchor>//api/name/autostart</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setPreload:</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether videos should be loaded before play is requested. Defaults to YES.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL preload</Declaration>
+			
+			
+			<Anchor>//api/name/preload</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/preload</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether videos should be loaded before play is requested. Defaults to YES.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL preload</Declaration>
+			
+			
+			<Anchor>//api/name/preload</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/preload</TokenIdentifier>
+			<Abstract type="html">A boolean value that determines whether videos should be loaded before play is requested. Defaults to YES.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL preload</Declaration>
+			
+			
+			<Anchor>//api/name/preload</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setAdSchedule:</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivides info about ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/adSchedule</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivides info about ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/adSchedule</TokenIdentifier>
+			<Abstract type="html">An array of JWAdBreak objects that proivides info about ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *adSchedule</Declaration>
+			
+			
+			<Anchor>//api/name/adSchedule</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setAdVmap:</TokenIdentifier>
+			<Abstract type="html">Vast vmap file to use for ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adVmap</Declaration>
+			
+			
+			<Anchor>//api/name/adVmap</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/adVmap</TokenIdentifier>
+			<Abstract type="html">Vast vmap file to use for ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adVmap</Declaration>
+			
+			
+			<Anchor>//api/name/adVmap</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/adVmap</TokenIdentifier>
+			<Abstract type="html">Vast vmap file to use for ad breaks.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *adVmap</Declaration>
+			
+			
+			<Anchor>//api/name/adVmap</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setPremiumSkin:</TokenIdentifier>
+			<Abstract type="html">Sets a premium JW Player skin to use with the player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWPremiumSkin premiumSkin</Declaration>
+			
+			
+			<Anchor>//api/name/premiumSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/premiumSkin</TokenIdentifier>
+			<Abstract type="html">Sets a premium JW Player skin to use with the player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWPremiumSkin premiumSkin</Declaration>
+			
+			
+			<Anchor>//api/name/premiumSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/premiumSkin</TokenIdentifier>
+			<Abstract type="html">Sets a premium JW Player skin to use with the player.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWPremiumSkin premiumSkin</Declaration>
+			
+			
+			<Anchor>//api/name/premiumSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setCssSkin:</TokenIdentifier>
+			<Abstract type="html">A url to a CSS file that contains a skin to be used during player setup.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cssSkin</Declaration>
+			
+			
+			<Anchor>//api/name/cssSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/cssSkin</TokenIdentifier>
+			<Abstract type="html">A url to a CSS file that contains a skin to be used during player setup.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cssSkin</Declaration>
+			
+			
+			<Anchor>//api/name/cssSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/cssSkin</TokenIdentifier>
+			<Abstract type="html">A url to a CSS file that contains a skin to be used during player setup.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *cssSkin</Declaration>
+			
+			
+			<Anchor>//api/name/cssSkin</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setTracks:</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/tracks</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/tracks</TokenIdentifier>
+			<Abstract type="html">An array of JWTrack objects providing captions for different languages.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/cl/JWTrack</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain) NSArray *tracks</Declaration>
+			
+			
+			<Anchor>//api/name/tracks</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setStretch:</TokenIdentifier>
+			<Abstract type="html">Provides an option to stretch the video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWStretching stretch</Declaration>
+			
+			
+			<Anchor>//api/name/stretch</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/stretch</TokenIdentifier>
+			<Abstract type="html">Provides an option to stretch the video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWStretching stretch</Declaration>
+			
+			
+			<Anchor>//api/name/stretch</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/stretch</TokenIdentifier>
+			<Abstract type="html">Provides an option to stretch the video.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWStretching stretch</Declaration>
+			
+			
+			<Anchor>//api/name/stretch</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/setBitRateUpperBound:</TokenIdentifier>
+			<Abstract type="html">Sets the maximum bitrate that can be reached during automatic quality switching.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double bitRateUpperBound</Declaration>
+			
+			
+			<Anchor>//api/name/bitRateUpperBound</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/bitRateUpperBound</TokenIdentifier>
+			<Abstract type="html">Sets the maximum bitrate that can be reached during automatic quality switching.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double bitRateUpperBound</Declaration>
+			
+			
+			<Anchor>//api/name/bitRateUpperBound</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWConfig/bitRateUpperBound</TokenIdentifier>
+			<Abstract type="html">Sets the maximum bitrate that can be reached during automatic quality switching.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) double bitRateUpperBound</Declaration>
+			
+			
+			<Anchor>//api/name/bitRateUpperBound</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWConfig/configWithContentURL:</TokenIdentifier>
+			<Abstract type="html">Inits a JWConfig object with provided video url.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)configWithContentURL:(NSString *)contentUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>contentUrl</Name>
+					<Abstract type="html">URL of the video content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/configWithContentURL:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWConfig/initWithContentUrl:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates a JWConfig object with url of video content.</Abstract>
+			<DeclaredIn>JWConfig.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithContentUrl:(NSString *)contentUrl</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>contentUrl</Name>
+					<Abstract type="html">URL of the video content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithContentUrl:</Anchor>
+            <NodeRef refid="7"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

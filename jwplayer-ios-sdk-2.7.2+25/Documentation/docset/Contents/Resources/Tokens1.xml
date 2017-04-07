@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWAdBreak.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWAdBreak</TokenIdentifier>
+			<Abstract type="html">JWAdBreak is an object providing info for an ad break in a video, played using JWPlayer.
+single AdBreak or a set of multiple AdBreak should be fed to JWConfig as an adSchedule array</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+            
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/setOffset:</TokenIdentifier>
+			<Abstract type="html">Offset of the ad. Describes the point in time at which to play the ad.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/offset</TokenIdentifier>
+			<Abstract type="html">Offset of the ad. Describes the point in time at which to play the ad.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdBreak/offset</TokenIdentifier>
+			<Abstract type="html">Offset of the ad. Describes the point in time at which to play the ad.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *offset</Declaration>
+			
+			
+			<Anchor>//api/name/offset</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/setTag:</TokenIdentifier>
+			<Abstract type="html">This option is the URL to the ad tag, which contains the VAST response.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/tag</TokenIdentifier>
+			<Abstract type="html">This option is the URL to the ad tag, which contains the VAST response.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdBreak/tag</TokenIdentifier>
+			<Abstract type="html">This option is the URL to the ad tag, which contains the VAST response.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *tag</Declaration>
+			
+			
+			<Anchor>//api/name/tag</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/setTags:</TokenIdentifier>
+			<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.
+@description tags array is used as a waterfall: if the first tag fails to play, the player falls back to the second in the list and so on, until it finds one that can be played.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/tags</TokenIdentifier>
+			<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.
+@description tags array is used as a waterfall: if the first tag fails to play, the player falls back to the second in the list and so on, until it finds one that can be played.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdBreak/tags</TokenIdentifier>
+			<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.
+@description tags array is used as a waterfall: if the first tag fails to play, the player falls back to the second in the list and so on, until it finds one that can be played.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/setNonLinear:</TokenIdentifier>
+			<Abstract type="html">Set to &apos;YES&apos; if the ad tag is an overlay ad banner.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL nonLinear</Declaration>
+			
+			
+			<Anchor>//api/name/nonLinear</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/nonLinear</TokenIdentifier>
+			<Abstract type="html">Set to &apos;YES&apos; if the ad tag is an overlay ad banner.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL nonLinear</Declaration>
+			
+			
+			<Anchor>//api/name/nonLinear</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWAdBreak/nonLinear</TokenIdentifier>
+			<Abstract type="html">Set to &apos;YES&apos; if the ad tag is an overlay ad banner.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL nonLinear</Declaration>
+			
+			
+			<Anchor>//api/name/nonLinear</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWAdBreak/adBreakWithTag:offset:nonLinear:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates a linear or non-linear AdBreak with tag and offset.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)adBreakWithTag:(NSString *)tag offset:(NSString *)offset nonLinear:(BOOL)nonLinear</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">This option is the URL to the ad tag, which contains the VAST response.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Offset of the ad.</Abstract>
+				</Parameter><Parameter>
+					<Name>nonLinear</Name>
+					<Abstract type="html">Boolean value that determines if adbreak is non-linear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adBreakWithTag:offset:nonLinear:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWAdBreak/adBreakWithTags:offset:nonLinear:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates a linear or non-linear AdBreak with waterfall tags and offset.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)adBreakWithTags:(NSArray *)tags offset:(NSString *)offset nonLinear:(BOOL)nonLinear</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tags</Name>
+					<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Offset of the ad.</Abstract>
+				</Parameter><Parameter>
+					<Name>nonLinear</Name>
+					<Abstract type="html">Boolean value that determines if adbreak is non-linear.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adBreakWithTags:offset:nonLinear:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWAdBreak/adBreakWithTag:offset:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates an AdBreak with tag and offset.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)adBreakWithTag:(NSString *)tag offset:(NSString *)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">This option is the URL to the ad tag, which contains the VAST response.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Offset of the ad.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adBreakWithTag:offset:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWAdBreak/adBreakWithTags:offset:</TokenIdentifier>
+			<Abstract type="html">Factory method that creates an AdBreak with waterfall tags and offset.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>+ (instancetype)adBreakWithTags:(NSArray *)tags offset:(NSString *)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tags</Name>
+					<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Offset of the ad.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/adBreakWithTags:offset:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWAdBreak/initWithTags:offset:</TokenIdentifier>
+			<Abstract type="html">Inits an AdBreak with provided params.</Abstract>
+			<DeclaredIn>JWAdBreak.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithTags:(NSArray *)tags offset:(NSString *)offset</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tags</Name>
+					<Abstract type="html">This option is the array of URLs to the ad tags, which contains the VAST response.</Abstract>
+				</Parameter><Parameter>
+					<Name>offset</Name>
+					<Abstract type="html">Offset of the ad.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithTags:offset:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

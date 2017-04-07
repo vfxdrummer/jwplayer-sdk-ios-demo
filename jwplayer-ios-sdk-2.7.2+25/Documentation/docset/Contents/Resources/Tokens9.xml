@@ -1,0 +1,1507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWPlayerController.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWPlayerController</TokenIdentifier>
+			<Abstract type="html">A class that encapsulates JW Player and provides control over the playback as well as holds the state of the player and notifies about status updates.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+            
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setView:</TokenIdentifier>
+			<Abstract type="html">Player view.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/view</TokenIdentifier>
+			<Abstract type="html">Player view.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/view</TokenIdentifier>
+			<Abstract type="html">Player view.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) UIView *view</Declaration>
+			
+			
+			<Anchor>//api/name/view</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setDelegate:</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the jwPlayerController.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWPlayerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWPlayerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the jwPlayerController.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWPlayerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWPlayerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/delegate</TokenIdentifier>
+			<Abstract type="html">The object that acts as the delegate of the jwPlayerController.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWPlayerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWPlayerDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setDrmDataSource:</TokenIdentifier>
+			<Abstract type="html">The JWDrmDataSource is adopted by an object that mediates the application&apos;s data model and key server. The data source provides the JWPlayerController object with the data needed to reproduce encrypted content.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWDrmDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWDrmDataSource&gt; drmDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/drmDataSource</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/drmDataSource</TokenIdentifier>
+			<Abstract type="html">The JWDrmDataSource is adopted by an object that mediates the application&apos;s data model and key server. The data source provides the JWPlayerController object with the data needed to reproduce encrypted content.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWDrmDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWDrmDataSource&gt; drmDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/drmDataSource</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/drmDataSource</TokenIdentifier>
+			<Abstract type="html">The JWDrmDataSource is adopted by an object that mediates the application&apos;s data model and key server. The data source provides the JWPlayerController object with the data needed to reproduce encrypted content.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWDrmDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, weak) id&lt;JWDrmDataSource&gt; drmDataSource</Declaration>
+			
+			
+			<Anchor>//api/name/drmDataSource</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setGoogleIMAVersion:</TokenIdentifier>
+			<Abstract type="html">Returns the version of google IMA framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleIMAVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleIMAVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/googleIMAVersion</TokenIdentifier>
+			<Abstract type="html">Returns the version of google IMA framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleIMAVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleIMAVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/googleIMAVersion</TokenIdentifier>
+			<Abstract type="html">Returns the version of google IMA framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleIMAVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleIMAVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setGoogleChromeCastVersion:</TokenIdentifier>
+			<Abstract type="html">Returns the version of google ChromeCast framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleChromeCastVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleChromeCastVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/googleChromeCastVersion</TokenIdentifier>
+			<Abstract type="html">Returns the version of google ChromeCast framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleChromeCastVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleChromeCastVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/googleChromeCastVersion</TokenIdentifier>
+			<Abstract type="html">Returns the version of google ChromeCast framework used by the SDK.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *googleChromeCastVersion</Declaration>
+			
+			
+			<Anchor>//api/name/googleChromeCastVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlayerState:</TokenIdentifier>
+			<Abstract type="html">Returns current state of the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerState</Declaration>
+			
+			
+			<Anchor>//api/name/playerState</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playerState</TokenIdentifier>
+			<Abstract type="html">Returns current state of the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerState</Declaration>
+			
+			
+			<Anchor>//api/name/playerState</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playerState</TokenIdentifier>
+			<Abstract type="html">Returns current state of the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerState</Declaration>
+			
+			
+			<Anchor>//api/name/playerState</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setMetadata:</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the current video. Usually includes dimensions and duration of the video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSDictionary *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/metadata</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the current video. Usually includes dimensions and duration of the video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSDictionary *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/metadata</TokenIdentifier>
+			<Abstract type="html">Metadata associated with the current video. Usually includes dimensions and duration of the video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSDictionary *metadata</Declaration>
+			
+			
+			<Anchor>//api/name/metadata</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setNaturalSize:</TokenIdentifier>
+			<Abstract type="html">Dimensions of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/naturalSize</TokenIdentifier>
+			<Abstract type="html">Dimensions of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/naturalSize</TokenIdentifier>
+			<Abstract type="html">Dimensions of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGSize naturalSize</Declaration>
+			
+			
+			<Anchor>//api/name/naturalSize</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setConfig:</TokenIdentifier>
+			<Abstract type="html">JWConfig object that was used to setup the player.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) JWConfig *config</Declaration>
+			
+			
+			<Anchor>//api/name/config</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/config</TokenIdentifier>
+			<Abstract type="html">JWConfig object that was used to setup the player.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) JWConfig *config</Declaration>
+			
+			
+			<Anchor>//api/name/config</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/config</TokenIdentifier>
+			<Abstract type="html">JWConfig object that was used to setup the player.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) JWConfig *config</Declaration>
+			
+			
+			<Anchor>//api/name/config</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setBuffer:</TokenIdentifier>
+			<Abstract type="html">Returns the current PlaylistItem&apos;s filled buffer, as a percentage (0 to 100) of the total video&apos;s length.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger buffer</Declaration>
+			
+			
+			<Anchor>//api/name/buffer</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/buffer</TokenIdentifier>
+			<Abstract type="html">Returns the current PlaylistItem&apos;s filled buffer, as a percentage (0 to 100) of the total video&apos;s length.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger buffer</Declaration>
+			
+			
+			<Anchor>//api/name/buffer</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/buffer</TokenIdentifier>
+			<Abstract type="html">Returns the current PlaylistItem&apos;s filled buffer, as a percentage (0 to 100) of the total video&apos;s length.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSInteger buffer</Declaration>
+			
+			
+			<Anchor>//api/name/buffer</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setControls:</TokenIdentifier>
+			<Abstract type="html">Enable the built-in controls by setting them true, disable the controls by setting them false.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/controls</TokenIdentifier>
+			<Abstract type="html">Enable the built-in controls by setting them true, disable the controls by setting them false.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/controls</TokenIdentifier>
+			<Abstract type="html">Enable the built-in controls by setting them true, disable the controls by setting them false.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL controls</Declaration>
+			
+			
+			<Anchor>//api/name/controls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setDisplayLockScreenControls:</TokenIdentifier>
+			<Abstract type="html">When enabled, the user will be able to control playback of the current video (play, pause, and when applicable next/previous) from the device&apos;s Lock Screen and some information (title, playback position, duration, poster image) will be presented on the lockscreen. Defaults to YES.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayLockScreenControls</Declaration>
+			
+			
+			<Anchor>//api/name/displayLockScreenControls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/displayLockScreenControls</TokenIdentifier>
+			<Abstract type="html">When enabled, the user will be able to control playback of the current video (play, pause, and when applicable next/previous) from the device&apos;s Lock Screen and some information (title, playback position, duration, poster image) will be presented on the lockscreen. Defaults to YES.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayLockScreenControls</Declaration>
+			
+			
+			<Anchor>//api/name/displayLockScreenControls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/displayLockScreenControls</TokenIdentifier>
+			<Abstract type="html">When enabled, the user will be able to control playback of the current video (play, pause, and when applicable next/previous) from the device&apos;s Lock Screen and some information (title, playback position, duration, poster image) will be presented on the lockscreen. Defaults to YES.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL displayLockScreenControls</Declaration>
+			
+			
+			<Anchor>//api/name/displayLockScreenControls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setSafeRegion:</TokenIdentifier>
+			<Abstract type="html">Returns the region of the display not used by the controls. You can use this information to ensure your visual assets don&apos;t overlap with the controls.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect safeRegion</Declaration>
+			
+			
+			<Anchor>//api/name/safeRegion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/safeRegion</TokenIdentifier>
+			<Abstract type="html">Returns the region of the display not used by the controls. You can use this information to ensure your visual assets don&apos;t overlap with the controls.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect safeRegion</Declaration>
+			
+			
+			<Anchor>//api/name/safeRegion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/safeRegion</TokenIdentifier>
+			<Abstract type="html">Returns the region of the display not used by the controls. You can use this information to ensure your visual assets don&apos;t overlap with the controls.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) CGRect safeRegion</Declaration>
+			
+			
+			<Anchor>//api/name/safeRegion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setCurrentQualityLevel:</TokenIdentifier>
+			<Abstract type="html">The index of the object in quality levels list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentQualityLevel</Declaration>
+			
+			
+			<Anchor>//api/name/currentQualityLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/currentQualityLevel</TokenIdentifier>
+			<Abstract type="html">The index of the object in quality levels list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentQualityLevel</Declaration>
+			
+			
+			<Anchor>//api/name/currentQualityLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentQualityLevel</TokenIdentifier>
+			<Abstract type="html">The index of the object in quality levels list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentQualityLevel</Declaration>
+			
+			
+			<Anchor>//api/name/currentQualityLevel</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setLevels:</TokenIdentifier>
+			<Abstract type="html">List of quality levels available for the current media.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *levels</Declaration>
+			
+			
+			<Anchor>//api/name/levels</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/levels</TokenIdentifier>
+			<Abstract type="html">List of quality levels available for the current media.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *levels</Declaration>
+			
+			
+			<Anchor>//api/name/levels</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/levels</TokenIdentifier>
+			<Abstract type="html">List of quality levels available for the current media.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *levels</Declaration>
+			
+			
+			<Anchor>//api/name/levels</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setCurrentCaptions:</TokenIdentifier>
+			<Abstract type="html">The index of the caption object in captions list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/captionsList</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSInteger currentCaptions</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptions</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/currentCaptions</TokenIdentifier>
+			<Abstract type="html">The index of the caption object in captions list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/captionsList</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSInteger currentCaptions</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptions</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentCaptions</TokenIdentifier>
+			<Abstract type="html">The index of the caption object in captions list currently used by the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/captionsList</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic) NSInteger currentCaptions</Declaration>
+			
+			
+			<Anchor>//api/name/currentCaptions</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setCaptionsList:</TokenIdentifier>
+			<Abstract type="html">List of all the captions supplied in the config</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentCaptions</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *captionsList</Declaration>
+			
+			
+			<Anchor>//api/name/captionsList</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/captionsList</TokenIdentifier>
+			<Abstract type="html">List of all the captions supplied in the config</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentCaptions</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *captionsList</Declaration>
+			
+			
+			<Anchor>//api/name/captionsList</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/captionsList</TokenIdentifier>
+			<Abstract type="html">List of all the captions supplied in the config</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentCaptions</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *captionsList</Declaration>
+			
+			
+			<Anchor>//api/name/captionsList</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setCurrentAudioTrack:</TokenIdentifier>
+			<Abstract type="html">The index of the currently active audio track.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/currentAudioTrack</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/currentAudioTrack</TokenIdentifier>
+			<Abstract type="html">The index of the currently active audio track.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/currentAudioTrack</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/currentAudioTrack</TokenIdentifier>
+			<Abstract type="html">The index of the currently active audio track.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger currentAudioTrack</Declaration>
+			
+			
+			<Anchor>//api/name/currentAudioTrack</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setAudioTracks:</TokenIdentifier>
+			<Abstract type="html">Array with audio tracks from the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *audioTracks</Declaration>
+			
+			
+			<Anchor>//api/name/audioTracks</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/audioTracks</TokenIdentifier>
+			<Abstract type="html">Array with audio tracks from the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *audioTracks</Declaration>
+			
+			
+			<Anchor>//api/name/audioTracks</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/audioTracks</TokenIdentifier>
+			<Abstract type="html">Array with audio tracks from the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSArray *audioTracks</Declaration>
+			
+			
+			<Anchor>//api/name/audioTracks</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlaylistIndex:</TokenIdentifier>
+			<Abstract type="html">The index of the currently active item in the playlist.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger playlistIndex</Declaration>
+			
+			
+			<Anchor>//api/name/playlistIndex</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playlistIndex</TokenIdentifier>
+			<Abstract type="html">The index of the currently active item in the playlist.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger playlistIndex</Declaration>
+			
+			
+			<Anchor>//api/name/playlistIndex</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playlistIndex</TokenIdentifier>
+			<Abstract type="html">The index of the currently active item in the playlist.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger playlistIndex</Declaration>
+			
+			
+			<Anchor>//api/name/playlistIndex</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/initWithConfig:</TokenIdentifier>
+			<Abstract type="html">Inits the player with config object in JWConfig format.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (instancetype)initWithConfig:(JWConfig *)config</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>config</Name>
+					<Abstract type="html">JWConfig object that is used to setup the player.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithConfig:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/initWithConfig:delegate:</TokenIdentifier>
+			<Abstract type="html">Inits the player with config object in JWConfig format and sets the object that acts as the delegate of the JWPlayerController.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWPlayerDelegate</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (instancetype)initWithConfig:(JWConfig *)config delegate:(id&lt;JWPlayerDelegate&gt;)delegate</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>config</Name>
+					<Abstract type="html">JWConfig object that is used to setup the player.</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The object that acts as the delegate of the jwPlayerController.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithConfig:delegate:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/initWithConfig:delegate:drmDataSource:</TokenIdentifier>
+			<Abstract type="html">Inits the player with a JWConfig object and sets the object that acts as a DRM data source, as well as the delegate of the JWPlayerController.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/intf/JWDrmDataSource</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (instancetype)initWithConfig:(JWConfig *)config delegate:(id&lt;JWPlayerDelegate&gt;)delegate drmDataSource:(id&lt;JWDrmDataSource&gt;)drmDataSource</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>config</Name>
+					<Abstract type="html">JWConfig object that is used to setup the player.</Abstract>
+				</Parameter><Parameter>
+					<Name>delegate</Name>
+					<Abstract type="html">The object that acts as the delegate of the jwPlayerController.</Abstract>
+				</Parameter><Parameter>
+					<Name>drmDataSource</Name>
+					<Abstract type="html">The object that acts as a data source for reproducing drm encrypted content.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initWithConfig:delegate:drmDataSource:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/play</TokenIdentifier>
+			<Abstract type="html">Starts to play video from current position.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)play</Declaration>
+			
+			
+			<Anchor>//api/name/play</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/pause</TokenIdentifier>
+			<Abstract type="html">Pauses video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)pause</Declaration>
+			
+			
+			<Anchor>//api/name/pause</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/stop</TokenIdentifier>
+			<Abstract type="html">Stops the player (returning it to the idle state) and unloads the currently playing media file.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)stop</Declaration>
+			
+			
+			<Anchor>//api/name/stop</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/seek:</TokenIdentifier>
+			<Abstract type="html">Time in the video to seek to</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+	<RelatedTokens>
+		<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/duration</TokenIdentifier>
+		
+	</RelatedTokens>
+	
+			<Declaration>- (void)seek:(NSUInteger)position</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>position</Name>
+					<Abstract type="html">Time in the video to seek to</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/seek:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlaybackPosition:</TokenIdentifier>
+			<Abstract type="html">Playback position of the current video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSNumber *playbackPosition</Declaration>
+			
+			
+			<Anchor>//api/name/playbackPosition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playbackPosition</TokenIdentifier>
+			<Abstract type="html">Playback position of the current video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSNumber *playbackPosition</Declaration>
+			
+			
+			<Anchor>//api/name/playbackPosition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playbackPosition</TokenIdentifier>
+			<Abstract type="html">Playback position of the current video.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSNumber *playbackPosition</Declaration>
+			
+			
+			<Anchor>//api/name/playbackPosition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setDuration:</TokenIdentifier>
+			<Abstract type="html">Duration of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/duration</TokenIdentifier>
+			<Abstract type="html">Duration of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/duration</TokenIdentifier>
+			<Abstract type="html">Duration of the current video. Becomes available shortly after the video starts to play as a part of metadata.</Abstract>
+			<DeclaredIn>JWPlayerController+Private.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) double duration</Declaration>
+			
+			
+			<Anchor>//api/name/duration</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setVolume:</TokenIdentifier>
+			<Abstract type="html">The volume of the JWPlayerController&apos;s audio. At 0.0 the player is muted, at 1.0 the player&apos;s volume is as loud as the device&apos;s volume.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/volume</TokenIdentifier>
+			<Abstract type="html">The volume of the JWPlayerController&apos;s audio. At 0.0 the player is muted, at 1.0 the player&apos;s volume is as loud as the device&apos;s volume.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/volume</TokenIdentifier>
+			<Abstract type="html">The volume of the JWPlayerController&apos;s audio. At 0.0 the player is muted, at 1.0 the player&apos;s volume is as loud as the device&apos;s volume.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat volume</Declaration>
+			
+			
+			<Anchor>//api/name/volume</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlaybackRate:</TokenIdentifier>
+			<Abstract type="html">The rate at which media is being reproduced.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat playbackRate</Declaration>
+			
+			
+			<Anchor>//api/name/playbackRate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playbackRate</TokenIdentifier>
+			<Abstract type="html">The rate at which media is being reproduced.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat playbackRate</Declaration>
+			
+			
+			<Anchor>//api/name/playbackRate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playbackRate</TokenIdentifier>
+			<Abstract type="html">The rate at which media is being reproduced.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) CGFloat playbackRate</Declaration>
+			
+			
+			<Anchor>//api/name/playbackRate</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setIsInFullscreen:</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video is in full screen.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInFullscreen</Declaration>
+			
+			
+			<Anchor>//api/name/isInFullscreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/isInFullscreen</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video is in full screen.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInFullscreen</Declaration>
+			
+			
+			<Anchor>//api/name/isInFullscreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/isInFullscreen</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video is in full screen.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL isInFullscreen</Declaration>
+			
+			
+			<Anchor>//api/name/isInFullscreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setForceFullScreenOnLandscape:</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should go to full screen mode when the device rotates to landscape.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceFullScreenOnLandscape</Declaration>
+			
+			
+			<Anchor>//api/name/forceFullScreenOnLandscape</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/forceFullScreenOnLandscape</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should go to full screen mode when the device rotates to landscape.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceFullScreenOnLandscape</Declaration>
+			
+			
+			<Anchor>//api/name/forceFullScreenOnLandscape</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/forceFullScreenOnLandscape</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should go to full screen mode when the device rotates to landscape.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceFullScreenOnLandscape</Declaration>
+			
+			
+			<Anchor>//api/name/forceFullScreenOnLandscape</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setForceLandscapeOnFullScreen:</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should rotate to landscape when the fullscreen button is pressed.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceLandscapeOnFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/forceLandscapeOnFullScreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/forceLandscapeOnFullScreen</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should rotate to landscape when the fullscreen button is pressed.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceLandscapeOnFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/forceLandscapeOnFullScreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/forceLandscapeOnFullScreen</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should rotate to landscape when the fullscreen button is pressed.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL forceLandscapeOnFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/forceLandscapeOnFullScreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPictureInPictureDisabled:</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should allow Picture In Picture display. Default value is NO.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL pictureInPictureDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/pictureInPictureDisabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/pictureInPictureDisabled</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should allow Picture In Picture display. Default value is NO.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL pictureInPictureDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/pictureInPictureDisabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/pictureInPictureDisabled</TokenIdentifier>
+			<Abstract type="html">A Boolean value that determines whether the video should allow Picture In Picture display. Default value is NO.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL pictureInPictureDisabled</Declaration>
+			
+			
+			<Anchor>//api/name/pictureInPictureDisabled</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/enterFullScreen</TokenIdentifier>
+			<Abstract type="html">Switches the player to full screen mode.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)enterFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/enterFullScreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/exitFullScreen</TokenIdentifier>
+			<Abstract type="html">Switches the player to inline mode.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)exitFullScreen</Declaration>
+			
+			
+			<Anchor>//api/name/exitFullScreen</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/togglePictureInPicture</TokenIdentifier>
+			<Abstract type="html">Toggles the player into and out of Picture In Picture display.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)togglePictureInPicture</Declaration>
+			
+			
+			<Anchor>//api/name/togglePictureInPicture</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/load:</TokenIdentifier>
+			<Abstract type="html">Loads a new file into the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)load:(NSString *)file</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>file</Name>
+					<Abstract type="html">Video URL to play using JW Player.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/load:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/loadConfig:</TokenIdentifier>
+			<Abstract type="html">Loads a new JWConfig object into the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)loadConfig:(JWConfig *)config</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>config</Name>
+					<Abstract type="html">COnfiguration object.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadConfig:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/loadPlaylist:</TokenIdentifier>
+			<Abstract type="html">Loads a new playlist into the player.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)loadPlaylist:(NSArray *)playlist</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>playlist</Name>
+					<Abstract type="html">An array containing playlist items.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loadPlaylist:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playAd:</TokenIdentifier>
+			<Abstract type="html">Immediately starts to play an ad using the vastPlugin.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)playAd:(NSString *)tag</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">Xml file with info about the ad.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playAd:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playAd:onClient:</TokenIdentifier>
+			<Abstract type="html">Immediately starts to play an ad.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)playAd:(NSString *)tag onClient:(JWAdClient)adClient</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>tag</Name>
+					<Abstract type="html">Xml file with info about the ad.</Abstract>
+				</Parameter><Parameter>
+					<Name>adClient</Name>
+					<Abstract type="html">Set to googima if you wish to use google IMA; set to vastPlugin if not. Setting to nil defaults to vastPlugin. Note: Due to the fact that Google IMA&apos;s iOS SDK is still in Beta mode, we suggest using the vastPlugin.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/playAd:onClient:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setOpenSafariOnAdClick:</TokenIdentifier>
+			<Abstract type="html">If set to YES will open Safari after the user clicks the ad.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL openSafariOnAdClick</Declaration>
+			
+			
+			<Anchor>//api/name/openSafariOnAdClick</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/openSafariOnAdClick</TokenIdentifier>
+			<Abstract type="html">If set to YES will open Safari after the user clicks the ad.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL openSafariOnAdClick</Declaration>
+			
+			
+			<Anchor>//api/name/openSafariOnAdClick</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/openSafariOnAdClick</TokenIdentifier>
+			<Abstract type="html">If set to YES will open Safari after the user clicks the ad.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) BOOL openSafariOnAdClick</Declaration>
+			
+			
+			<Anchor>//api/name/openSafariOnAdClick</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/openRelatedOverlay</TokenIdentifier>
+			<Abstract type="html">Opens the related overlay. This will pause content if it is currently playing.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)openRelatedOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/openRelatedOverlay</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/closeRelatedOverlay</TokenIdentifier>
+			<Abstract type="html">Closes the related plugin overlay. This will resume content.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>- (void)closeRelatedOverlay</Declaration>
+			
+			
+			<Anchor>//api/name/closeRelatedOverlay</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlayerVersion:</TokenIdentifier>
+			<Abstract type="html">Version of underlying web player</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerVersion</Declaration>
+			
+			
+			<Anchor>//api/name/playerVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playerVersion</TokenIdentifier>
+			<Abstract type="html">Version of underlying web player</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerVersion</Declaration>
+			
+			
+			<Anchor>//api/name/playerVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playerVersion</TokenIdentifier>
+			<Abstract type="html">Version of underlying web player</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerVersion</Declaration>
+			
+			
+			<Anchor>//api/name/playerVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/setPlayerEdition:</TokenIdentifier>
+			<Abstract type="html">Player edition based on the provided JW License key</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerEdition</Declaration>
+			
+			
+			<Anchor>//api/name/playerEdition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWPlayerController/playerEdition</TokenIdentifier>
+			<Abstract type="html">Player edition based on the provided JW License key</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerEdition</Declaration>
+			
+			
+			<Anchor>//api/name/playerEdition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWPlayerController/playerEdition</TokenIdentifier>
+			<Abstract type="html">Player edition based on the provided JW License key</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain, readonly) NSString *playerEdition</Declaration>
+			
+			
+			<Anchor>//api/name/playerEdition</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWPlayerController/SDKVersion</TokenIdentifier>
+			<Abstract type="html">Version of the iOS SDK</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SDKVersion</Declaration>
+			
+			
+			<Anchor>//api/name/SDKVersion</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWPlayerController/SDKVersionToMinor</TokenIdentifier>
+			<Abstract type="html">Version of the iOS SDK, truncated.
+(i.e.: if SDKVersion returns 1.001, SDKVersionToMinor returns 1.).</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)SDKVersionToMinor</Declaration>
+			
+			
+			<Anchor>//api/name/SDKVersionToMinor</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/JWPlayerController/setPlayerKey:</TokenIdentifier>
+			<Abstract type="html">Sets the Player Key programmatically instead of having to type it into the application&apos;s info.plist. We recommend setting the key in the AppDelegate&apos;s application:didFinishLaunchingWithOptions: method.</Abstract>
+			<DeclaredIn>JWPlayerController.h</DeclaredIn>
+			
+			<Declaration>+ (void)setPlayerKey:(NSString *)key</Declaration>
+			
+			
+			<Anchor>//api/name/setPlayerKey:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

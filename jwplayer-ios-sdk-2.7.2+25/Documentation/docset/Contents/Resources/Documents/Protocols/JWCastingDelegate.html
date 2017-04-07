@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>JWCastingDelegate Protocol Reference</title>
+
+	<link rel="stylesheet" href="../css/style.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1.4">
+	<meta name="generator" content="appledoc 2.2.1 (build 1334)">
+</head>
+<body class="appledoc">
+	<header>
+		<div class="container" class="hide-in-xcode">
+			
+			<h1 id="library-title">
+				<a href="../index.html">JWPlayer-iOS-SDK </a>
+			</h1>
+
+			<p id="developer-home">
+				<a href="../index.html">JW Player</a>
+			</p>
+			
+		</div>
+	</header>
+
+	<aside>
+		<div class="container">
+			<nav>
+				<ul id="header-buttons" role="toolbar">
+					<li><a href="../index.html">Index</a></li>
+<li><a href="../hierarchy.html">Hierarchy</a></li>
+
+					<li id="on-this-page" role="navigation">
+						<label>
+							On This Page
+
+							<div class="chevron">
+								<div class="chevy chevron-left"></div>
+								<div class="chevy chevron-right"></div>
+							</div>
+
+							<select id="jump-to">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+
+	
+	
+
+	
+
+	
+	<optgroup label="Instance Methods">
+		
+		<option value="//api/name/onCasting">- onCasting</option>
+		
+		<option value="//api/name/onCastingDevicesAvailable:">- onCastingDevicesAvailable:</option>
+		
+		<option value="//api/name/onCastingEnded:">- onCastingEnded:</option>
+		
+		<option value="//api/name/onCastingFailed:">- onCastingFailed:</option>
+		
+		<option value="//api/name/onConnectedToCastingDevice:">- onConnectedToCastingDevice:</option>
+		
+		<option value="//api/name/onConnectionFailed:">- onConnectionFailed:</option>
+		
+		<option value="//api/name/onConnectionRecovered">- onConnectionRecovered</option>
+		
+		<option value="//api/name/onConnectionTemporarilySuspended">- onConnectionTemporarilySuspended</option>
+		
+		<option value="//api/name/onDisconnectedFromCastingDevice:">- onDisconnectedFromCastingDevice:</option>
+		
+	</optgroup>
+	
+	
+</select>
+						</label>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</aside>
+
+	<article>
+		<div id="overview_contents" class="container">
+			<div id="content">
+				<main role="main">
+					<h1 class="title">JWCastingDelegate Protocol Reference</h1>
+
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<th>Conforms to</th>
+	<td>NSObject</td>
+</tr><tr>
+	<th>Declared in</th>
+	<td>JWCastingDelegate.h</td>
+</tr>
+						</tbody></table></div>
+					
+
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>@protocol JWCastingDelegate</p><p>The JWCastingDelegate protocol defines methods that a delegate of a <a href="../Classes/JWCastController.html">JWCastController</a> object can optionally implement to receive callbacks from the casting device.</p>
+					</div>
+					
+					
+
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						
+
+						
+						
+
+						<div class="task-list">
+							<div class="section-method">
+	<a name="//api/name/onCastingDevicesAvailable:" title="onCastingDevicesAvailable:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCastingDevicesAvailable:">&ndash;&nbsp;onCastingDevicesAvailable:</a></code>
+<span class="task-item-suffix">required method</span></h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCastingDevicesAvailable</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCastingDevicesAvailable:(NSArray&lt;JWCastingDevice*&gt; *)<em>devices</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>devices</code></th>
+						<td><p>List of casting devices that are currently online.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called whenever a casting device comes online. Note: scanForDevices must be called by the <a href="../Classes/JWCastController.html">JWCastController</a> object in order to start listening for devices.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/JWCastingDevice.html">JWCastingDevice</a>.</p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onConnectedToCastingDevice:" title="onConnectedToCastingDevice:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onConnectedToCastingDevice:">&ndash;&nbsp;onConnectedToCastingDevice:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onConnectedToCastingDevice</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onConnectedToCastingDevice:(JWCastingDevice *)<em>device</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>device</code></th>
+						<td><p>The casting device to which the castController is connected to.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when a successful connection to a casting device is made.</p>
+			</div>
+			
+
+			
+
+			
+			<div class="method-subsection see-also-section">
+				<h4 class="method-subtitle">See Also</h4>
+				<ul>
+					
+					<li><code><p><a href="../Classes/JWCastingDevice.html">JWCastingDevice</a>.</p></code></li>
+					
+				</ul>
+			</div>
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onDisconnectedFromCastingDevice:" title="onDisconnectedFromCastingDevice:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onDisconnectedFromCastingDevice:">&ndash;&nbsp;onDisconnectedFromCastingDevice:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onDisconnectedFromCasting</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onDisconnectedFromCastingDevice:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message under property localizedDescription. Value will be nil if disconnection was purposeful.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when the castController is disconnected from the castDevice.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onConnectionTemporarilySuspended" title="onConnectionTemporarilySuspended"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onConnectionTemporarilySuspended">&ndash;&nbsp;onConnectionTemporarilySuspended</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onConnectionTemporarilySuspended</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onConnectionTemporarilySuspended</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when the connected casting device is temporarily disconnected. Video resumes on the mobile device until connection resumes.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onConnectionRecovered" title="onConnectionRecovered"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onConnectionRecovered">&ndash;&nbsp;onConnectionRecovered</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onConnectionRecovered</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onConnectionRecovered</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called after connection is reestablished following a temporary disconnection. Video resumes on the casting device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onConnectionFailed:" title="onConnectionFailed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onConnectionFailed:">&ndash;&nbsp;onConnectionFailed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onConnectionFailed</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onConnectionFailed:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message under property localizedDescription.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when an attempt to connect to a casting device is unsuccessful.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCasting" title="onCasting"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCasting">&ndash;&nbsp;onCasting</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCasting</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCasting</code></div>
+
+		    
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when casting session begins.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCastingFailed:" title="onCastingFailed:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCastingFailed:">&ndash;&nbsp;onCastingFailed:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCastingFailed</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCastingFailed:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message under property localizedDescription.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when an attempt to cast to a casting device is unsuccessful.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div><div class="section-method">
+	<a name="//api/name/onCastingEnded:" title="onCastingEnded:"></a>
+	<h3 class="method-title"><code><a href="#//api/name/onCastingEnded:">&ndash;&nbsp;onCastingEnded:</a></code>
+</h3>
+
+	<div class="method-info">
+		<div class="pointy-thing"></div>
+
+		<div class="method-info-container">
+			
+			
+			<div class="method-subsection brief-description">
+				<p>onCastingEnded</p>
+			</div>
+			
+		    
+
+			<div class="method-subsection method-declaration"><code>- (void)onCastingEnded:(NSError *)<em>error</em></code></div>
+
+		    
+			
+			<div class="method-subsection arguments-section parameters">
+				<h4 class="method-subtitle parameter-title">Parameters</h4>
+				<table class="argument-def parameter-def">
+				
+					<tr>
+						<th scope="row" class="argument-name"><code>error</code></th>
+						<td><p>Object containing the error message under property localizedDescription. Can be nil if casting ended intentionally.</p></td>
+					</tr>
+				
+				</table>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection discussion-section">
+				<h4 class="method-subtitle">Discussion</h4>
+				<p>Called when casting session ends. Note: Application might still be connected to the casting device.</p>
+			</div>
+			
+
+			
+
+			
+
+			
+			<div class="method-subsection declared-in-section">
+				<h4 class="method-subtitle">Declared In</h4>
+				<p><code class="declared-in-ref">JWCastingDelegate.h</code></p>
+			</div>
+			
+			
+		</div>
+	</div>
+</div>
+						</div>
+						
+					</div>
+					
+					
+
+                    
+                    
+          
+				</main>
+
+				<footer>
+					<div class="footer-copyright">
+						
+						<p class="copyright">Copyright &copy; 2017 JW Player. All rights reserved. Updated: 2017-03-24</p>
+						
+						
+						<p class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2.1 (build 1334)</a>.</p>
+						
+					</div>
+				</footer>
+			</div>
+		</div>
+	</article>
+
+	<script src="../js/script.js"></script>
+</body>
+</html>

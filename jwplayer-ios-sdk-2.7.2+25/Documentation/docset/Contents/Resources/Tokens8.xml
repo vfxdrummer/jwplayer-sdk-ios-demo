@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWGoogimaHandler.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWGoogimaHandler</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>JWGoogimaHandler.h</DeclaredIn>
+            
+			
+			<NodeRef refid="8"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWGoogimaHandler/abortAdPlayback</TokenIdentifier>
+			<Abstract type="html">Immediately aborts ad playback when called.
+Used when reloading media on the player.</Abstract>
+			<DeclaredIn>JWGoogimaHandler.h</DeclaredIn>
+			
+			<Declaration>- (void)abortAdPlayback</Declaration>
+			
+			
+			<Anchor>//api/name/abortAdPlayback</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

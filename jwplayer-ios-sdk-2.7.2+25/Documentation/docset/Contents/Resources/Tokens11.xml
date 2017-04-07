@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/JWRelatedConfig.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/JWRelatedConfig</TokenIdentifier>
+			<Abstract type="html">An object providing information about the way related videos are handled by the player.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/setFile:</TokenIdentifier>
+			<Abstract type="html">(Required) Location of an RSS or JSON file containing a feed of related videos.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/file</TokenIdentifier>
+			<Abstract type="html">(Required) Location of an RSS or JSON file containing a feed of related videos.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWRelatedConfig/file</TokenIdentifier>
+			<Abstract type="html">(Required) Location of an RSS or JSON file containing a feed of related videos.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *file</Declaration>
+			
+			
+			<Anchor>//api/name/file</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/setOnComplete:</TokenIdentifier>
+			<Abstract type="html">The behavior of our related videos overlay when a single video or playlist is completed.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWRelatedCompleteAction onComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onComplete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/onComplete</TokenIdentifier>
+			<Abstract type="html">The behavior of our related videos overlay when a single video or playlist is completed.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWRelatedCompleteAction onComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onComplete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWRelatedConfig/onComplete</TokenIdentifier>
+			<Abstract type="html">The behavior of our related videos overlay when a single video or playlist is completed.</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) JWRelatedCompleteAction onComplete</Declaration>
+			
+			
+			<Anchor>//api/name/onComplete</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/setHeading:</TokenIdentifier>
+			<Abstract type="html">Single line heading displayed above the grid with related videos. Generally contains a short call-to-action.
+Default: &quot;Next up&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/heading</TokenIdentifier>
+			<Abstract type="html">Single line heading displayed above the grid with related videos. Generally contains a short call-to-action.
+Default: &quot;Next up&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWRelatedConfig/heading</TokenIdentifier>
+			<Abstract type="html">Single line heading displayed above the grid with related videos. Generally contains a short call-to-action.
+Default: &quot;Next up&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *heading</Declaration>
+			
+			
+			<Anchor>//api/name/heading</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/setAutoplayTimer:</TokenIdentifier>
+			<Abstract type="html">The number of seconds to wait before playing the next related video in your content list.
+Set to 0 to have your next related content to play immediately.
+Default: 10</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger autoplayTimer</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayTimer</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/autoplayTimer</TokenIdentifier>
+			<Abstract type="html">The number of seconds to wait before playing the next related video in your content list.
+Set to 0 to have your next related content to play immediately.
+Default: 10</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger autoplayTimer</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayTimer</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWRelatedConfig/autoplayTimer</TokenIdentifier>
+			<Abstract type="html">The number of seconds to wait before playing the next related video in your content list.
+Set to 0 to have your next related content to play immediately.
+Default: 10</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSInteger autoplayTimer</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayTimer</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/setAutoplayMessage:</TokenIdentifier>
+			<Abstract type="html">A custom message that appears during autoplay.
+Note: xx will be replaced by the countdown timer
+Note: title will be replaced by the next title in the related feed.
+Default: &quot;Next up in xx seconds&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *autoplayMessage</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayMessage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/JWRelatedConfig/autoplayMessage</TokenIdentifier>
+			<Abstract type="html">A custom message that appears during autoplay.
+Note: xx will be replaced by the countdown timer
+Note: title will be replaced by the next title in the related feed.
+Default: &quot;Next up in xx seconds&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *autoplayMessage</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayMessage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/JWRelatedConfig/autoplayMessage</TokenIdentifier>
+			<Abstract type="html">A custom message that appears during autoplay.
+Note: xx will be replaced by the countdown timer
+Note: title will be replaced by the next title in the related feed.
+Default: &quot;Next up in xx seconds&quot;</Abstract>
+			<DeclaredIn>JWRelatedConfig.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic) NSString *autoplayMessage</Declaration>
+			
+			
+			<Anchor>//api/name/autoplayMessage</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>

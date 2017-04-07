@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/JWDrmDataSource.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/JWDrmDataSource</TokenIdentifier>
+			<Abstract type="html">@protocol JWDrmDataSource</Abstract>
+			<DeclaredIn>JWDrmDataSource.h</DeclaredIn>
+            
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWDrmDataSource/fetchContentIdentifierForRequest:forEncryption:withCompletion:</TokenIdentifier>
+			<Abstract type="html">@method fetchContentIdentifierForRequest:forEncryption:withCompletion:</Abstract>
+			<DeclaredIn>JWDrmDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchContentIdentifierForRequest:(NSURL *)loadingRequestURL forEncryption:(JWEncryption)encryption withCompletion:(void ( ^ ) ( NSData *contentIdentifier ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>loadingRequestURL</Name>
+					<Abstract type="html">The url of the resource being loaded.</Abstract>
+				</Parameter><Parameter>
+					<Name>encryption</Name>
+					<Abstract type="html">The DRM system used (i.e. Apple FairPlay).</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">The completion block used to provide the JW Player SDK with the content identifier. In the case of Apple FairPlay this is an opaque identifier for the content and is needed to obtain the SPC (Server Playback Context) message from the operating system.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchContentIdentifierForRequest:forEncryption:withCompletion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWDrmDataSource/fetchAppIdentifierForRequest:forEncryption:withCompletion:</TokenIdentifier>
+			<Abstract type="html">@method fetchAppIdentifierForRequest:forEncryption:withCompletion:</Abstract>
+			<DeclaredIn>JWDrmDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchAppIdentifierForRequest:(NSURL *)loadingRequestURL forEncryption:(JWEncryption)encryption withCompletion:(void ( ^ ) ( NSData *appIdentifier ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>loadingRequestURL</Name>
+					<Abstract type="html">The url of the resource being loaded.</Abstract>
+				</Parameter><Parameter>
+					<Name>encryption</Name>
+					<Abstract type="html">The DRM system used (i.e. Apple FairPlay).</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">The completion block used to provide the JW Player SDK with the application identifier. In the case of Apple FairPlay this is the Application Certificate you receive after registering an FPS playback app.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchAppIdentifierForRequest:forEncryption:withCompletion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/JWDrmDataSource/fetchContentKeyWithRequest:forEncryption:withCompletion:</TokenIdentifier>
+			<Abstract type="html">@method fetchContentKeyWithRequest:forEncryption:withCompletion:</Abstract>
+			<DeclaredIn>JWDrmDataSource.h</DeclaredIn>
+			
+			<Declaration>- (void)fetchContentKeyWithRequest:(NSData *)requestBytes forEncryption:(JWEncryption)encryption withCompletion:(void ( ^ ) ( NSData *response , NSDate *renewalDate , NSString *contentType ))completion</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>requestBytes</Name>
+					<Abstract type="html">The key request data that must be transmitted to the key vendor to obtain the content key. In the case of Apple FairPlay this is the SPC (Server Playback Context) message from the operating system which must be sent to the Key Server in order to obtain the CKC (Content Key Context) message.</Abstract>
+				</Parameter><Parameter>
+					<Name>encryption</Name>
+					<Abstract type="html">The DRM system used (i.e. Apple FairPlay).</Abstract>
+				</Parameter><Parameter>
+					<Name>completion</Name>
+					<Abstract type="html">The completion block used to provide the JW Player SDK with the Server Response.
+In the case of Apple FairPlay, the response is the content key wrapped inside an encrypted Content Key Context (the CKC message) returned by the key server.
+In the case of Apple FairPlay, a date for renewal of resources that expire can be specified by passing a renewal date in the completion block. When specifying a renewal date the content type (the UTI indicating the type of data contained by the response) should be specified.</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/fetchContentKeyWithRequest:forEncryption:withCompletion:</Anchor>
+            <NodeRef refid="15"/>
+		</Token>
+		
+        
+        
+	</File>
+</Tokens>
