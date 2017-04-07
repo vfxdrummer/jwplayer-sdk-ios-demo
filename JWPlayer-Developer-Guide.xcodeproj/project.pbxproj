@@ -16,6 +16,7 @@
 		6A80951B1A5F028400F8B4C6 /* icon-15.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A80951A1A5F028400F8B4C6 /* icon-15.png */; };
 		81B150FC1E9802F30007564B /* JWPlayer-iOS-SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B150FB1E9802F30007564B /* JWPlayer-iOS-SDK.framework */; };
 		81B150FD1E9804390007564B /* jwplayer-ios-sdk-2.7.2+25 in Resources */ = {isa = PBXBuildFile; fileRef = 81B150F91E9802D60007564B /* jwplayer-ios-sdk-2.7.2+25 */; };
+		81B151261E9829BB0007564B /* OverlayWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B151251E9829BB0007564B /* OverlayWindow.swift */; };
 		8AEA39FA1AFAAE22008A8C8A /* SwiftPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA39F71AFAAE22008A8C8A /* SwiftPlayerViewController.swift */; };
 		8AEA39FB1AFAAE22008A8C8A /* ObjCPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AEA39F91AFAAE22008A8C8A /* ObjCPlayerViewController.m */; };
 		97B533E21DA80A9000856F28 /* jwlogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B533E11DA80A9000856F28 /* jwlogo.png */; };
@@ -35,6 +36,7 @@
 		6A80951A1A5F028400F8B4C6 /* icon-15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-15.png"; sourceTree = "<group>"; };
 		81B150F91E9802D60007564B /* jwplayer-ios-sdk-2.7.2+25 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "jwplayer-ios-sdk-2.7.2+25"; sourceTree = "<group>"; };
 		81B150FB1E9802F30007564B /* JWPlayer-iOS-SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "JWPlayer-iOS-SDK.framework"; path = "jwplayer-ios-sdk-2.7.2+25/Framework/JWPlayer-iOS-SDK.framework"; sourceTree = "<group>"; };
+		81B151251E9829BB0007564B /* OverlayWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OverlayWindow.swift; path = "../../toneitup-IOS/WolfCore/WolfCore/Source-UI/OverlayWindow.swift"; sourceTree = "<group>"; };
 		8AEA39F61AFAAE22008A8C8A /* JWPlayer-Developer-Demo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JWPlayer-Developer-Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		8AEA39F71AFAAE22008A8C8A /* SwiftPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPlayerViewController.swift; sourceTree = "<group>"; };
 		8AEA39F81AFAAE22008A8C8A /* ObjCPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjCPlayerViewController.h; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				6A7D08F61A5DAFD600C4E749 /* AppDelegate.m */,
 				6A7D08F81A5DAFD600C4E749 /* ViewController.h */,
 				6A7D08F91A5DAFD600C4E749 /* ViewController.m */,
+				81B151251E9829BB0007564B /* OverlayWindow.swift */,
 				6A7D09001A5DAFD600C4E749 /* LaunchScreen.xib */,
 				6A7D08FE1A5DAFD600C4E749 /* Images.xcassets */,
 				6A7D08F31A5DAFD600C4E749 /* main.m */,
@@ -199,6 +202,7 @@
 				6A7D08F71A5DAFD600C4E749 /* AppDelegate.m in Sources */,
 				8AEA39FB1AFAAE22008A8C8A /* ObjCPlayerViewController.m in Sources */,
 				6A7D08F41A5DAFD600C4E749 /* main.m in Sources */,
+				81B151261E9829BB0007564B /* OverlayWindow.swift in Sources */,
 				8AEA39FA1AFAAE22008A8C8A /* SwiftPlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

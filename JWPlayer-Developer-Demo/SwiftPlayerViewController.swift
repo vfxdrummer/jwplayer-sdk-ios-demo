@@ -37,6 +37,8 @@ class SwiftPlayerViewController: UIViewController, JWPlayerDelegate {
         
         self.automaticallyAdjustsScrollViewInsets = false
         
+        let oW = OverlayWindow()
+        
         super.viewDidLoad()
     }
     

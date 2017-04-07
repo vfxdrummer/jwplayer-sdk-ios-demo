@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8B3EE2821C1DDB3CB59B95A31189B0DFAD876A03",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B421D34A853AA7298AEEE2A7DF0A0DF1D4B98CAE" : 9223372036854775807,
+    "8B3EE2821C1DDB3CB59B95A31189B0DFAD876A03" : 9223372036854775807,
+    "71192E6EF86D22160EFAA3922C17C4D482DB6F54" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "583AF121-49A9-420A-BF9B-D370F7B15C28",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B421D34A853AA7298AEEE2A7DF0A0DF1D4B98CAE" : "toneitup-IOS\/WolfCore\/",
+    "8B3EE2821C1DDB3CB59B95A31189B0DFAD876A03" : "jwplayer-sdk-ios-demo\/",
+    "71192E6EF86D22160EFAA3922C17C4D482DB6F54" : "toneitup-IOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "JWPlayer-Developer-Guide",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "JWPlayer-Developer-Guide.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/leftfieldlabs\/toneitup-IOS",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "71192E6EF86D22160EFAA3922C17C4D482DB6F54"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vfxdrummer\/jwplayer-sdk-ios-demo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B3EE2821C1DDB3CB59B95A31189B0DFAD876A03"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vfxdrummer\/WolfCore",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B421D34A853AA7298AEEE2A7DF0A0DF1D4B98CAE"
+    }
+  ]
+}
