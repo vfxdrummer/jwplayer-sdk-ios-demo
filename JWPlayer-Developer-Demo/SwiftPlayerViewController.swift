@@ -37,7 +37,9 @@ class SwiftPlayerViewController: UIViewController, JWPlayerDelegate {
         
         self.automaticallyAdjustsScrollViewInsets = false
         
-        let oW = OverlayWindow()
+//        let oW = OverlayWindow()
+        
+        
         
         super.viewDidLoad()
     }
@@ -46,7 +48,20 @@ class SwiftPlayerViewController: UIViewController, JWPlayerDelegate {
         self.createPlayer()
         self.view.addSubview(player.view)
         self.setupCallbacks()
+        coverEverything()
         super.viewDidAppear(animated)
+    }
+    var coveringWindow: UIWindow?
+    
+    func coverEverything() {
+        coveringWindow = UIWindow(frame: (view.window?.frame)!)
+        
+        if let coveringWindow = coveringWindow {
+            coveringWindow.windowLevel = UIWindowLevelAlert + 100
+            coveringWindow.isHidden = false
+            
+            coveringWindow.rootViewController = OverlayViewController()
+        }
     }
     
     func createPlayer() {
