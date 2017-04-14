@@ -22,8 +22,8 @@ public var overlayWindow: OverlayWindow! {
     }
 }
 
-public var overlayView: View {
-    return overlayWindow!.subviews[0] as! View
+public var overlayView: UIView {
+    return overlayWindow!.subviews[0] as! UIView
 }
 
 public func removeOverlayWindow() {
@@ -40,34 +40,59 @@ public class OverlayWindow: UIWindow {
         super.init(coder: aDecoder)
         _setup()
     }
-
+    
+    public func __setup() {
+        translatesAutoresizingMaskIntoConstraints = false
+        makeTransparent()
+    }
+    
+    public func makeTransparent() {
+        isOpaque = false
+//        normalBackgroundColor = .clear
+    }
+    
     private func _setup() {
         __setup()
 
         windowLevel = UIWindowLevelAlert + 100
         frame = UIScreen.main.bounds
         rootViewController = OverlayViewController()
-        show()
+        //        show()
+        isHidden = false
         setup()
     }
 
     open func setup() { }
 
     override open func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
-        return isTransparentToTouch(at: point, with: event)
+//        return isTransparentToTouch(at: point, with: event)
+        return true
     }
 }
 
-public class OverlayViewController: ViewController {
+public class OverlayViewController: UIViewController {
     public override func loadView() {
-        let v = View()
-        v.isTransparentToTouches = true
+        let v = UIView()
+//        v.isTransparentToTouches = true
         v.translatesAutoresizingMaskIntoConstraints = true
+        v.isOpaque = false
+        v.backgroundColor = UIColor.clear
+        
+        //let v2 = UIView()
+        //v2.backgroundColor = UIColor.green
+        //v.addSubview(v2)
+        
         view = v
+        
+    }
+    
+    public override func viewDidLoad() {
+        
     }
 
     public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        view.makeTransparent()
+//        view.makeTransparent()
+        
     }
 }
